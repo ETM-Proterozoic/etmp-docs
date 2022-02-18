@@ -8,59 +8,66 @@ const headerMenu = [
   {
     name: 'Technology',
     url: '#Technology',
+    target: '_self'
   },
   {
     name: 'Ecosystem',
-    url: '#Ecosystem'
+    url: '#Ecosystem',
+    target: '_self'
   },
   {
     name: 'Tokenomic',
-    url: '#Tokenomic'
+    url: '#Tokenomic',
+    target: '_self'
   },
   {
     name: 'Roadmap',
-    url: '#Roadmap'
-  },
-  {
-    name: 'NetWork',
-    children: [
-      {
-        name: 'Test Network',
-        url: '#'
-      },
-      {
-        name: 'Main Network',
-        url: '#'
-      },
-    ]
+    url: '#Roadmap',
+    target: '_self'
   },
   {
     name: 'Developers',
-    children: [
-      {
-        name: 'Document',
-        url: 'https://entanmo.gitbook.io'
-      },
-      {
-        name: 'Build Now ',
-        url: 'https://forms.gle/34XJ8eUNyN3a9c4X6'
-      },
-    ]
+    url: 'https://entanmo.gitbook.io',
+    target: '_blank'
   },
   {
-    name: 'Individuals',
+    name: 'Use ETM3',
     children: [
       {
-        name: 'Wallet',
-        url: '#'
+        name: 'Staking',
+        url: '#',
+        icon: {
+          on: '/img/header/staking-on.svg',
+          off: '/img/header/staking-off.svg'
+        },
+        target: '_blank',
       },
       {
         name: 'Bridge',
-        url: '#'
+        url: '#',
+        icon: {
+          on: '/img/header/bridge-on.svg',
+          off: '/img/header/bridge-off.svg'
+        },
+        target: '_blank'
       },
       {
-        name: 'Get Started',
-        url: 'https://forms.gle/34XJ8eUNyN3a9c4X6'
+        name: 'Token Swap',
+        url: '#',
+        icon: {
+          on: '/img/header/tokenswap-on.svg',
+          off: '/img/header/tokenswap-off.svg'
+        },
+        target: '_blank'
+      },
+      {
+        name: 'Explorer',
+        url: '#',
+        icon: {
+          on: '/img/header/explorer-on.svg',
+          off: '/img/header/explorer-off.svg'
+        },
+        target: '_blank'
       }
     ]
   }
@@ -104,13 +111,23 @@ export default function Header() {
                   item.children ? (
                     <>
                       <span>{item.name}</span>
-                      <div>
-                        {
-                          item.children.map((it, idx) => <a href={it.url} target="_blank" key={idx}>{it.name}</a>)
-                        }
+                      <div className="header-menu-list-hover-view">
+                        <div className="header-menu-add-network">
+                          <img src={useBaseUrl('/img/header/metamask.svg')} alt=""/>
+                          Add ETM3 Network to Metamask
+                        </div>
+                        <div className="header-menu-list-hover-view-items">
+                          {
+                            item.children.map((it, idx) => <a href={it.url} target={it.target} key={idx}>
+                              <img src={useBaseUrl(it.icon.on)} alt=""/>
+                              <img src={useBaseUrl(it.icon.off)} alt=""/>
+                              {it.name}
+                            </a>)
+                          }
+                        </div>
                       </div>
                     </>
-                  ) : <a href={item.url}>{item.name}</a>
+                  ) : <a href={item.url} target={item.target}>{item.name}</a>
                 }
               </div>)
             }

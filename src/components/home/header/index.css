@@ -55,17 +55,20 @@
 }
 .header-menu-item>span{
     cursor: pointer;
+    white-space: nowrap;
 }
-.header-menu-item>div{
+.header-menu-list-hover-view{
     display: none;
     position: absolute;
     bottom: 0;
     transform: translateY(100%);
-    width: auto;
-    background: #ffffff;
-    padding: 10px;
-    box-shadow: 1px 1px 2px 1px rgba(163, 180, 204, 0.25);
-    border-radius: 5px;
+    width: 320px;
+    height: 330px;
+    background: #FFFFFF;
+    /* Shadow-3xl */
+    box-shadow: 0px 0px 1px rgba(12, 26, 75, 0.1), 5px 30px 71px rgba(20, 37, 63, 0.08);
+    border-radius: 20px;
+    overflow: hidden;
 }
 .header-menu-item>div>a{
     display: block;
@@ -87,12 +90,80 @@
 .header-menu-item>a:hover{
     color: #BDBDBD;
 }
-@media (max-width: 780px) {
+
+.header-menu-add-network{
+    height: 44px;
+    background: #F2F2F2;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 116%;
+    color: #34303E;
+    cursor: pointer;
+}
+.header-menu-add-network>img{
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+}
+.header-menu-list-hover-view-items{
+    padding: 10px 20px;
+}
+.header-menu-list-hover-view-items>a{
+    display: flex;
+    align-items: center;
+    height: 44px;
+    /*background: #F8F9FA;*/
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 20px 0px;
+    padding: 0 16px;
+    text-decoration: none;
+    color: #34303E;
+}
+.header-menu-list-hover-view-items>a>img{
+    margin-right: 16px;
+    width: 24px;
+    height: 24px;
+}
+
+.header-menu-list-hover-view-items>a>img:nth-child(0){
+    display: block;
+}
+.header-menu-list-hover-view-items>a>img:nth-child(1){
+    display: none;
+}
+.header-menu-list-hover-view-items>a:hover{
+    background: #F8F9FA;
+}
+
+.header-menu-list-hover-view-items>a:hover img:nth-child(1){
+    display: block!important;
+}
+.header-menu-list-hover-view-items>a:hover img:nth-last-child(1){
+    display: none!important;
+}
+@media (max-width: 980px) {
     .header-view {
         padding: 15px 16px;
     }
 }
-@media (max-width: 1200px) {
+@media (max-width: 780px) {
 
     .header-view {
         padding: 23px 20px;
