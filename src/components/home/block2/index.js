@@ -33,7 +33,15 @@ const list = [
     items: [
       {
         finish: false,
-        txt: 'coming soon'
+        txt: 'Game Developer Partnership'
+      },
+      {
+        finish: false,
+        txt: 'Announce Token Governance Plan'
+      },
+      {
+        finish: false,
+        txt: 'Host a Hackathon For Developer'
       }
     ]
   },
@@ -42,7 +50,7 @@ const list = [
     items: [
       {
         finish: false,
-        txt: 'coming soon'
+        txt: 'ETM3 Mainnet Launch'
       }
     ]
   }
@@ -52,7 +60,7 @@ export default function Block2() {
   const [select, setSelect] = useState(0)
   return (
     <div className="home-block2">
-      <h1 className="home-block2-title">Roadmap</h1>
+      <h1 className="home-block2-title" id="Roadmap">Roadmap</h1>
       {
         list.map((item, index) => (
           <div className={"home-block2-list" + (index === select ? ' active' : '')} key={index}>

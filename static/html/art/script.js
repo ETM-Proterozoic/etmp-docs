@@ -36,6 +36,12 @@ var self = window;
 
 	var colors = {
 
+		lightBlue: [
+
+			'#ffffff',
+			'#00bcff'
+
+		],
 		lightRed: [
 
 			'#ffffff',
@@ -50,12 +56,6 @@ var self = window;
 
 		],
 
-		lightBlue: [
-
-			'#ffffff',
-			'#00bcff'
-
-		]
 
 	};
 
@@ -223,7 +223,7 @@ var self = window;
 		// Init particles and mesh
 		loadParticles();
 		updateTransitions(0);
-		changeMaterial(~~(Math.random() * 3));
+		changeMaterial(2);
 
 		renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
 		renderer.setSize(window.innerWidth, window.innerHeight);
@@ -270,7 +270,6 @@ var self = window;
 		event.preventDefault();
 
 		if(play)
-
 			changeMaterial();
 
 	}

@@ -18,12 +18,21 @@ export default function MenuModal({visible, onClose, headerMenu}){
           {
             headerMenu.map((item, index) => (
               <div key={index} className="menu-modal-link">
-                {item.name}
                 {
-                  item.children.map((it, idx) => (
-                    <a href={it.url} key={idx} target="_blank">{it.name}</a>
-                  ))
+                  item.children ? (
+                    <span>
+                      {item.name}
+                      {
+                        item.children.map((it, idx) => (
+                          <a href={it.url} key={idx} target="_blank">{it.name}</a>
+                        ))
+                      }
+                    </span>
+                  ) : (
+                    <a href={item.url} onClick={onClose}>{item.name}</a>
+                  )
                 }
+
               </div>
             ))
           }

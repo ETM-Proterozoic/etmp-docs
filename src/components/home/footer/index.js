@@ -1,22 +1,25 @@
 import React from "react";
 import './index.css'
-
 const links = [
   {
     name: 'GitHub',
-    icon: require('/img/home/github.svg').default
+    icon: require('/img/home/github.svg').default,
+    url: 'https://github.com/entanmo'
   },
   {
     name: 'Twitter',
-    icon: require('/img/home/twitter.svg').default
+    icon: require('/img/home/twitter.svg').default,
+    url: 'https://twitter.com/EnTanMo1'
   },
   {
     name: 'Telegram',
-    icon: require('/img/home/telegram.svg').default
+    icon: require('/img/home/telegram.svg').default,
+    url: 'https://t.me/entanmo'
   },
   {
     name: 'Discord',
-    icon: require('/img/home/discord.svg').default
+    icon: require('/img/home/discord.svg').default,
+    url: '#'
   }
 ]
 
@@ -28,10 +31,10 @@ export default function Footer(){
         <div className="footer-link-list">
           {
             links.map(Item => (
-              <div key={Item.name}>
+              <a key={Item.name} href={Item.url} target="_blank">
                 <Item.icon/>
                 {Item.name}
-              </div>
+              </a>
             ))
           }
         </div>

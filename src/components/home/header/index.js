@@ -7,16 +7,19 @@ import MenuModal from "../menu-modal";
 const headerMenu = [
   {
     name: 'Technology',
-    children: [
-      {
-        name: 'Roadmap',
-        url: '#'
-      },
-      {
-        name: 'Whitepaper',
-        url: 'http://www.entanmo.com/docs/ETM%20Science_zh-CN.pdf'
-      },
-    ]
+    url: '#Technology',
+  },
+  {
+    name: 'Ecosystem',
+    url: '#Ecosystem'
+  },
+  {
+    name: 'Tokenomic',
+    url: '#Tokenomic'
+  },
+  {
+    name: 'Roadmap',
+    url: '#Roadmap'
   },
   {
     name: 'NetWork',
@@ -97,12 +100,18 @@ export default function Header() {
           <div className="header-menu-list">
             {
               headerMenu.map((item, index) => <div className="header-menu-item" key={index}>
-                <span>{item.name}</span>
-                <div>
-                  {
-                    item.children.map((it, idx) => <a href={it.url} target="_blank" key={idx}>{it.name}</a>)
-                  }
-                </div>
+                {
+                  item.children ? (
+                    <>
+                      <span>{item.name}</span>
+                      <div>
+                        {
+                          item.children.map((it, idx) => <a href={it.url} target="_blank" key={idx}>{it.name}</a>)
+                        }
+                      </div>
+                    </>
+                  ) : <a href={item.url}>{item.name}</a>
+                }
               </div>)
             }
           </div>

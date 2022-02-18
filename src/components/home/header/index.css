@@ -22,6 +22,7 @@
 }
 .header-box > .logo{
     width: 100px;
+    min-width: 100px;
     height: 50px;
 }
 .header-box > .header-menu-tab{
@@ -79,14 +80,22 @@
 .header-menu-item:hover >div{
     display: block;
 }
-@media (max-width: 980px) {
-    .header-view {
-        padding: 23px 20px;
-    }
+.header-menu-item>a{
+    color: #29272E;
+    text-decoration: none;
+}
+.header-menu-item>a:hover{
+    color: #BDBDBD;
 }
 @media (max-width: 780px) {
     .header-view {
         padding: 15px 16px;
+    }
+}
+@media (max-width: 1200px) {
+
+    .header-view {
+        padding: 23px 20px;
     }
     .header-box > .logo{
         width: 67px;

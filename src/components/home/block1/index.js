@@ -37,7 +37,7 @@ const list = [
 export default function Block1(){
   return (
     <div className="home-block1">
-      <h1 className="home-block1-title">Features</h1>
+      <h1 className="home-block1-title" id="Technology">Technology</h1>
       <div className="home-block1-list">
         {
           list.map((item, index) => (

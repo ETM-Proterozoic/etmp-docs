@@ -38,7 +38,11 @@
 .menu-modal-link{
     margin-bottom: 10px;
 }
-.menu-modal-link>a{
+.menu-modal-link>span>a{
     margin: 5px 5px 5px 10px;
     display: block;
+}
+.menu-modal-link>a{
+    color: #16192C;
+    text-decoration: none;
 }
