@@ -1,9 +1,11 @@
 import React, {useMemo} from "react";
 import './index.css'
-import G2 from '@antv/g2';
+import useIsBrowser from '@docusaurus/useIsBrowser';
 
 export default function Block4(){
+  const isBrowser = useIsBrowser()
   const renderChart = () => {
+    const G2 = require('@antv/g2')
     var data = [
       {
       item: 'Staking Reward',
@@ -77,10 +79,12 @@ export default function Block4(){
     interval.setSelected(data[0]);
   }
   useMemo(() => {
-    setTimeout(() => {
-      renderChart()
-    }, 1000)
-  }, [])
+    if (isBrowser){
+      setTimeout(() => {
+        renderChart()
+      }, 1000)
+    }
+  }, [isBrowser])
   return (
     <div className="home-block4">
       <h1 className="home-block4-title" id="Tokenomic">Tokenomic</h1>
