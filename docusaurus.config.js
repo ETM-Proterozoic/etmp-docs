@@ -21,11 +21,11 @@ const config = {
       '@docusaurus/preset-classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        // docs: {
-        //   sidebarPath: require.resolve('./sidebars.js'),
-        //   // Please change this to your repo.
-        //   editUrl: '/',
-        // },
+        docs: {
+          sidebarPath: require.resolve('./sidebars.js'),
+          // Please change this to your repo.
+          editUrl: '/',
+        },
         // blog: {
         //   showReadingTime: true,
         //   // Please change this to your repo.
@@ -42,7 +42,32 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-
+      navbar: {
+        title: '',
+        logo: {
+          alt: 'ETM3',
+          src: 'img/logo.svg',
+          width: '80px'
+        },
+        items: [
+          {
+            type: 'doc',
+            docId: 'start',
+            position: 'left',
+            label: 'Docs',
+          },
+          // {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            href: 'https://github.com/ETM3/etm3.github.io',
+            label: 'GitHub',
+            position: 'right',
+          },
+        ],
+      },
+      prism: {
+        theme: lightCodeTheme,
+        darkTheme: darkCodeTheme,
+      },
     }),
 };
 

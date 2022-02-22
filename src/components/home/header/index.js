@@ -27,8 +27,8 @@ const headerMenu = [
   },
   {
     name: 'Developers',
-    url: 'https://entanmo.gitbook.io',
-    target: '_blank'
+    url: '/docs/develop/getting-started',
+    target: '_self'
   },
   {
     name: 'Use ETM3',
@@ -132,7 +132,7 @@ export default function Header() {
               </div>)
             }
           </div>
-          <div className="etm3-btn-black header-get-start-btn">Get Started</div>
+          <a href="https://forms.gle/34XJ8eUNyN3a9c4X6" target="_blank" className="etm3-btn-black header-get-start-btn">Get Started</a>
         </div>
       </div>
       <MenuModal visible={showMenuModal} onClose={() => setShowMenuModal(false)} headerMenu={headerMenu}/>

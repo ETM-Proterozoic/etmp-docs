@@ -55,7 +55,9 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   font-weight: 500;
   font-size: 18px;
   line-height: 25px;
-  color: #FFFFFF;
   cursor: pointer;
   white-space: nowrap;
+
+  color: #ffffff!important;
+  text-decoration: none!important;
 }

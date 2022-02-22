@@ -34,20 +34,20 @@ const list = [
   },
   {
     icon: '/img/home/block3-6.svg',
-    title: 'Aave',
-    desc: 'Aave is an open source and non-custodial liquidity protocol for earning interest on deposits and borrowing assets.',
+    title: 'Evolution Land',
+    desc: 'Evolution Land is the first Defi+NFT cross-chain game with each continent built on different blockchain networks.',
     tag: 'Game'
   },
   {
     icon: '/img/home/block3-7.svg',
-    title: 'Aave',
-    desc: 'Aave is an open source and non-custodial liquidity protocol for earning interest on deposits and borrowing assets.',
+    title: 'ESCROW PROTOCOL',
+    desc: 'The Escrow Protocol is a decentralized web3 accelerator and crowdfunding platform.',
     tag: 'DAO'
   },
   {
     icon: '/img/home/block3-8.svg',
-    title: 'Aave',
-    desc: 'Aave is an open source and non-custodial liquidity protocol for earning interest on deposits and borrowing assets.',
+    title: 'nfDAO',
+    desc: 'nfDAO is a community DAO whose primary mission is to support and fund NFT projects.',
     tag: 'DAO'
   }
 ]
