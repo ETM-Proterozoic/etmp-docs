@@ -71,8 +71,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #16192C;
+    color: #16192C!important;
     cursor: pointer;
+    text-decoration: none!important;
 }
 
 .home-banner-r{
