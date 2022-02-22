@@ -1,6 +1,6 @@
 ---
 id: getting-started
-title: Application development on Polygon
+title: Application development on ETM3
 sidebar_label: Getting Started
 description: Build your next blockchain app on ETM3.
 keywords:
@@ -8,15 +8,15 @@ keywords:
   - ETM3
 ---
 
-Welcome to the most exciting and innovative platform to build your blockchain application on **Polygon Blockchain**. Blockchain technology is poised to revolutionise the way the digital world handles data and does business. Be a part of this revolution and get a head start with decentralised application development on Polygon.
+Welcome to the most exciting and innovative platform to build your blockchain application on **ETM3 Blockchain**. Blockchain technology is poised to revolutionise the way the digital world handles data and does business. Be a part of this revolution and get a head start with decentralised application development on ETM3.
 
-This page will act as your guide into the **Polygon Ecosystem**. You'll find links to some useful resources and websites to get you up and started with building on Polygon in particular and Blockchain in general. Feel free to reach out to us on Telegram/Discord.
+This page will act as your guide into the **ETM3 Ecosystem**. You'll find links to some useful resources and websites to get you up and started with building on ETM3 in particular and Blockchain in general. Feel free to reach out to us on Telegram/Discord.
 
 ## **Developer Quick Start**
 
-If you're an Ethereum Developer, you're already a Polygon developer.
-All the tools you're familiar with are supported on Polygon out of the box: Truffle, Remix, Web3js.
-Switch over to Polygon's RPC and get started!
+If you're an Ethereum Developer, you're already a ETM3 developer.
+All the tools you're familiar with are supported on ETM3 out of the box: Truffle, Remix, Web3js.
+Switch over to ETM3's RPC and get started!
 
 Polygon's Test Network which is called **Mumbai** connects with **Ethereum's Goërli Testnet.**
 All the network related details can be found in [network docs](/docs/develop/network-details/network)
