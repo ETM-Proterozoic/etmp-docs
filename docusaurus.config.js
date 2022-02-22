@@ -10,7 +10,7 @@ const config = {
   tagline: 'ETM3',
   url: 'https://etm3.com/',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'log',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.svg',
   organizationName: 'ETM3', // Usually your GitHub org/user name.
