@@ -3,6 +3,7 @@ import './index.css'
 import useIsBrowser from '@docusaurus/useIsBrowser';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import MenuModal from "../menu-modal";
+import {changeNetWork} from "../../../utils/connectors";
 
 const headerMenu = [
   {
@@ -112,7 +113,7 @@ export default function Header() {
                     <>
                       <span>{item.name}</span>
                       <div className="header-menu-list-hover-view">
-                        <div className="header-menu-add-network">
+                        <div className="header-menu-add-network" onClick={changeNetWork}>
                           <img src={useBaseUrl('/img/header/metamask.svg')} alt=""/>
                           Add ETM3 Network to Metamask
                         </div>
