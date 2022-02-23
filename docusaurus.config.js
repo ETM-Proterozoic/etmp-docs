@@ -47,6 +47,7 @@ const config = {
         logo: {
           alt: 'ETM3',
           src: 'img/logo.svg',
+          srcDark: 'img/logo-dark.svg',
           width: '80px'
         },
         items: [

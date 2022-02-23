@@ -37,19 +37,18 @@
     height: 120px;
     margin-bottom: 20px;
 }
-.home-block1-item > h1{
+.home-block1-item > h2{
     font-family: PingFang SC;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 54px;
     /* Theme/Dark/Default */
-    color: #16192C;
+    color: #16192C!important;
     /* Inside auto layout */
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 20px 0px;
 }
 .home-block1-item > p{
     font-family: PingFang SC;

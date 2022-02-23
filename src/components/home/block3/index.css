@@ -45,12 +45,12 @@
 .home-block3-item > div{
     flex: 1;
 }
-.home-block3-item > img{
+.home-block3-item img{
     width: 48px;
     height: 48px;
     margin-bottom: 10px;
 }
-.home-block3-item > h1{
+.home-block3-item h2{
     font-family: PingFang SC;
     font-style: normal;
     font-weight: 500;
@@ -62,7 +62,7 @@
     flex-grow: 0;
     margin: 10px 0px;
 }
-.home-block3-item > p{
+.home-block3-item p{
     font-family: PingFang SC;
     font-style: normal;
     font-weight: 300;

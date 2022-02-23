@@ -37,10 +37,14 @@
 }
 .menu-modal-link{
     margin-bottom: 10px;
+    color: #16192C;
 }
 .menu-modal-link>span>a{
     margin: 5px 5px 5px 10px;
     display: block;
+    color: #16192C;
+    text-decoration: none;
+
 }
 .menu-modal-link>a{
     color: #16192C;
