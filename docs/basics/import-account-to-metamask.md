@@ -33,7 +33,7 @@ Keep your seedphrase handy now.
 
 When you click on Import Wallet you will be navigated to a different screen which will ask you to enter your seedphrase. You will also be asked to set a password. 
 
-<img src={useBaseUrl("img/home/import-account-seed.png")} />
+<img src={useBaseUrl("img/basics/import-account-seed.png")} />
 
 Make sure that you are adding the seedphrase securely to Metamask. Once you add the seedphrase make sure that you also add a strong password.
 
@@ -41,7 +41,7 @@ Agree to the **Terms and Conditions** and then click on **Import**.
 
 You are now set. You will have successfully imported your account to Metamask.
 
-<img src={useBaseUrl("img/home/congratulations.png")} />
+<img src={useBaseUrl("img/basics/congratulations.png")} />
 
 By default, only ETH is listed in Metamask. If you already have ETM3 tokens then that too will be listed automatically. In order to view your other tokens, you can click on Add Tokens and search the token you want to be listed.
 
