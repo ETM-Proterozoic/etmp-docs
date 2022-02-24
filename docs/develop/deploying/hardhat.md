@@ -28,7 +28,7 @@ The sample project will ask you to install hardhat-waffle and hardhat-ethers.You
 ## **hardhat-config**
 
 - Go to hardhat.config.js
-- Update the hardhat-config with matic-network-crendentials.
+- Update the hardhat-config with etm3-network-crendentials.
 - create .env file in the root to store your private key
 
 ```js
@@ -36,12 +36,12 @@ require("@nomiclabs/hardhat-ethers");
 const fs = require('fs');
 const privateKey = fs.readFileSync(".secret").toString().trim();
 module.exports = {
-  defaultNetwork: "matic",
+  defaultNetwork: "etm3",
   networks: {
     hardhat: {
     },
-    matic: {
-      url: "https://rpc-mumbai.maticvigil.com",
+    etm: {
+      url: "https://testnet-rpc.etm3.com",
       accounts: [process.env.PRIVATE_KEY]
     }
   },
@@ -63,14 +63,14 @@ module.exports = {
 $ npx hardhat compile
 ```
 
-## **Deploying on Matic Network**
+## **Deploying on ETM3 Network**
 
 Run this command in root of the project directory:
 ```bash
-$ npx hardhat run scripts/sample-script.js --network matic
+$ npx hardhat run scripts/sample-script.js --network etm3
 ```
 
-Contract will be deployed on Matic's Mumbai Testnet, it look like this:
+Contract will be deployed on ETM3's Testnet, it look like this:
 
 ```shell
 Compilation finished successfully
@@ -80,7 +80,7 @@ Greeter deployed to: 0xfaFfCAD549BAA6110c5Cc03976d9383AcE90bdBE
 > Remember your address would differ, Above is just to provide an idea of structure.
 **Congratulations!** You have successfully deployed Greeter Smart Contract. Now you can interact with the Smart Contract.
 
-You can check the deployment status here: https://mumbai.polygonscan.com/
+You can check the deployment status here: https://testnet.etm3scan.com/
 
 
 

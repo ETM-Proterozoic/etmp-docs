@@ -14,8 +14,8 @@ import TabItem from '@theme/TabItem';
 In order to view the flow of funds in your accounts, on the Polygon Network, you will need to configure ETM3 `{testnet, mainnet}` URL on Metamask.
 
 There are two ways to do it:
-1. [Using ETM3scan](/develop/metamask/config-etm3-on-metamask.md#ETM3-scan)
-2. [Add the ETM3 network manually](/develop/metamask/config-polygon-on-metamask.md#add-the-polygon-network-manually)
+1. [Using ETM3scan](/develop/metamask/config-etm3-on-metamask.md#Using-ETM3scan)
+2. [Add the ETM3 network manually](/develop/metamask/config-etm3-on-metamask.md#add-the-etm3-network-manually)
 
 ### Using ETM3scan
 
@@ -77,16 +77,16 @@ If you are facing any issue, **Add the Network Manually(steps given below)**
   defaultValue="mainnet"
   values={[
     { label: 'ETM3-Mainnet', value: 'mainnet', },
-    { label: 'ETM3-Testnet', value: 'mumbai', },
+    { label: 'ETM3-Testnet', value: 'testnet', },
   ]
 }>
 
-<TabItem value="mumbai">
+<TabItem value="Testnet">
 To add ETM3's ETM3-Testnet, click on the Network selection dropdown and then click on Custom RPC.
 
 <img src={useBaseUrl("img/metamask/select-network.png")} />
 
-It will open up a form with 2 tabs on the top, Settings and Info. In the Settings tab you can add `Matic ETM3` in the Network Name field, URL `https://rpc-mumbai.maticvigil.com/` in the New RPC URL field, `80001` in Chain ID field, `MATIC` in Currency Symbol field and `https://mumbai.polygonscan.com/` in Block Explorer URL field.
+It will open up a form with 2 tabs on the top, Settings and Info. In the Settings tab you can add `ETM3 Testnet` in the Network Name field, URL `https://rpc-mumbai.maticvigil.com/` in the New RPC URL field, `80001` in Chain ID field, `MATIC` in Currency Symbol field and `https://mumbai.polygonscan.com/` in Block Explorer URL field.
 
 <img src={useBaseUrl("img/metamask/metamask-settings-mumbai.png")} />
 

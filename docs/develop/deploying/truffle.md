@@ -65,7 +65,7 @@ Notice, it requires mnemonic to be passed in for maticProvider, this is the seed
 
 ## **Deploying on ETM3 Network**
 
-Add ETM3 to your wallet using https://faucet.polygon.technology/
+Add ETM3 to your wallet using Metamask
 
 Run this command in root of the project directory:
 ```js

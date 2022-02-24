@@ -14,7 +14,7 @@ keywords:
 ## Guide to Setup Metamask for ETM3
 
 * [Download & Install MetaMask](/develop/metamask/tutorial-metamask.md)
-* [Configure ETM3 on MetaMask](/develop/metamask/config-ETM3-on-metamask.md)
+* [Configure ETM3 on MetaMask](/develop/metamask/config-etm3-on-metamask.md)
 * [Config Custom Tokens](/develop/metamask/custom-tokens.md)
 * [Create & Import Accounts](/develop/metamask/multiple-accounts.md)
 

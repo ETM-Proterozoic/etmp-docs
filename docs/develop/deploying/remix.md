@@ -25,7 +25,7 @@ This dapp implements a "Hello World" style application that echoes a message pas
           alignItems: "center"
         }}
       >
-        <img src={useBaseUrl("img/helloworld/search-plugins.png")} alt="RemixIDE_Step1"/>
+        <img src={useBaseUrl("static/img/helloworld/search-plugins.png")} alt="RemixIDE_Step1"/>
 </div>
 - Activate the two plugins
 <div
@@ -100,7 +100,7 @@ Go to Solidity Compiler
 - Now, ```Compile HelloWorld.sol```
 - After Successful Compilation, it will show 
 <img src={useBaseUrl("img/helloworld/Screenshot_2020-02-14_at_1.08.22_PM.png")} />
-- Now, We have to deploy our smart contract on Polygon Network. For that, we have to connect to web3 world, this can be done by using any of the services like Metamask, Brave, Portis etc. We will be using Metamask. Please follow this [tutorial to setup a Metamask Account](/docs/develop/metamask/hello).
+- Now, We have to deploy our smart contract on ETM3 Network. For that, we have to connect to web3 world, this can be done by using any of the services like Metamask, Brave, Portis etc. We will be using Metamask. Please follow this [tutorial to setup a Metamask Account](/docs/develop/metamask/hello).
 - Open Metamask and select Custom RPC from the networks dropdown
 
 <div
@@ -114,9 +114,9 @@ Go to Solidity Compiler
 </div>
 
 - Put in a Network name - “ETM3 Testnet”
-- In URL field you can add the URL as "https://rpc-mumbai.maticvigil.com"
+- In URL field you can add the URL as "https://testnet-rpc.etm3.com"
 - Enter the Chain ID: 80001
-- (Optional Fields) Symbol: "maticmum" and Block Explorer URL: "https://mumbai.polygonscan.com/"
+- (Optional Fields) Symbol: "maticmum" and Block Explorer URL: "https://testnet.etm3scan.com/"
 <div
         style={{
           display: "flex",
@@ -176,8 +176,7 @@ Select 'Mumbai' as the network and 'ETM3 Token' as the token in the faucet
       >
         <img src={useBaseUrl("img/helloworld/Screenshot_2020-02-14_at_1.45.23_PM.png")} alt="RemixIDE_Step1"/>
 </div>
-
-**Congratulations!** You have successfully deployed HelloWorld Smart Contract. Now you can interact with the Smart Contract. Check the deployment status here: https://mumbai.polygonscan.com/.
+**Congratulations!** You have successfully deployed HelloWorld Smart Contract. Now you can interact with the Smart Contract. Check the deployment status here: https://testnet.etm3scan.com/
 
 <div
         style={{
@@ -188,8 +187,7 @@ Select 'Mumbai' as the network and 'ETM3 Token' as the token in the faucet
       >
         <img src={useBaseUrl("img/helloworld/Screenshot_2020-02-14_at_2.00.19_PM.png")} alt="RemixIDE_Step1"/>
 </div>
-
-# **Verifying your Contracts on PolygonScan**
+# **Verifying your Contracts on ETM3Scan**
 
 
 The first and foremost step is to flatten the solidity contract into a single file.
@@ -203,11 +201,9 @@ Flatten using command
 
 ```sol-merger \"./contracts/*.sol\" ./build```
 
-## **Verifying on Polygonscan**
+## **Verifying on ETM3Scan**
 
 Navigate to your contract's polygonscan page and then click verify and publish
-
-<img src={useBaseUrl("img/verification/verify-publish.png")} />
 
 
 - Select ```Solidity (Single File)``` in compiler type
