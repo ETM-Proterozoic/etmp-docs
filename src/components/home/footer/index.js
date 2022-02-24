@@ -4,7 +4,7 @@ const links = [
   {
     name: 'GitHub',
     icon: require('/img/home/github.svg').default,
-    url: 'https://github.com/entanmo'
+    url: 'https://github.com/ETM3/etm3.github.io'
   },
   {
     name: 'Twitter',
