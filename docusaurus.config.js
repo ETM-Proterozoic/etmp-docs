@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'ETM3 Protocol',
+  title: 'ETM3 | Powerful, Fast, Low Cost For Web3',
   tagline: 'ETM3',
   url: 'https://etm3.com/',
   baseUrl: '/',
