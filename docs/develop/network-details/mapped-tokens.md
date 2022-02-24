@@ -7,38 +7,6 @@ keywords:
   - ETM3
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
-<Tabs
-defaultValue="mainnet"
-values={[
-{ label: 'ETM3-Mainnet', value: 'mainnet', },
-{ label: 'ETM3-Testnet', value: 'testnet', },
-]
-}>
-<TabItem value="testnet">
-
-# ETM3-Testnet
-
-If you want to get your token mapped then please send your mapping request via https://mapper.polygon.technology/
-
-The table below shows some examples about different mapped tokens on Testne, including but not limited to:
-
-| Token Name        | Bridge | Parent Chain Address: Testnet                                                                                                 | Child Chain: Testnet                                                                                                                  |
-| ----------------- | ------ | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| Polygon             | Plasma | [0x499d11E0b6eAC7c0593d8Fb292DCBbF815Fb29Ae](https://goerli.etherscan.io/address/0x499d11E0b6eAC7c0593d8Fb292DCBbF815Fb29Ae) | [0x0000000000000000000000000000000000001010](https://mumbai.polygonscan.com/address/0x0000000000000000000000000000000000001010) |
-| ERC20\-TestToken  | Plasma | [0x3f152B63Ec5CA5831061B2DccFb29a874C317502](https://goerli.etherscan.io/address/0x3f152B63Ec5CA5831061B2DccFb29a874C317502) | [0x2d7882beDcbfDDce29Ba99965dd3cdF7fcB10A1e](https://mumbai.polygonscan.com/address/0x2d7882beDcbfDDce29Ba99965dd3cdF7fcB10A1e) |
-| Plasma\-WETH      | Plasma | [0x60D4dB9b534EF9260a88b0BED6c486fe13E604Fc](https://goerli.etherscan.io/address/0x60D4dB9b534EF9260a88b0BED6c486fe13E604Fc) | [0x4DfAe612aaCB5b448C12A591cD0879bFa2e51d62](https://mumbai.polygonscan.com/address/0x4DfAe612aaCB5b448C12A591cD0879bFa2e51d62) |
-| ERC721\-TestToken | Plasma | [0xfA08B72137eF907dEB3F202a60EfBc610D2f224b](https://goerli.etherscan.io/address/0xfA08B72137eF907dEB3F202a60EfBc610D2f224b) | [0x33FC58F12A56280503b04AC7911D1EceEBcE179c](https://mumbai.polygonscan.com/address/0x33FC58F12A56280503b04AC7911D1EceEBcE179c) |
-| PoS\-WETH         | PoS    | [0x60D4dB9b534EF9260a88b0BED6c486fe13E604Fc](https://goerli.etherscan.io/address/0x60D4dB9b534EF9260a88b0BED6c486fe13E604Fc) | [0xA6FA4fB5f76172d178d61B04b0ecd319C5d1C0aa](https://mumbai.polygonscan.com/address/0xA6FA4fB5f76172d178d61B04b0ecd319C5d1C0aa) |
-| DummyERC20Token   | PoS    | [0x655F2166b0709cd575202630952D71E2bB0d61Af](https://goerli.etherscan.io/address/0x655F2166b0709cd575202630952D71E2bB0d61Af) | [0xfe4F5145f6e09952a5ba9e956ED0C25e3Fa4c7F1](https://mumbai.polygonscan.com/address/0xfe4F5145f6e09952a5ba9e956ED0C25e3Fa4c7F1) |
-| DummyERC721Token  | PoS    | [0x084297B12F204Adb74c689be08302FA3f12dB8A7](https://goerli.etherscan.io/address/0x084297B12F204Adb74c689be08302FA3f12dB8A7) | [0x757b1BD7C12B81b52650463e7753d7f5D0565C0e](https://mumbai.polygonscan.com/address/0x757b1BD7C12B81b52650463e7753d7f5D0565C0e) |
-| DummyERC1155Token | PoS    | [0x2e3Ef7931F2d0e4a7da3dea950FF3F19269d9063](https://goerli.etherscan.io/address/0x2e3Ef7931F2d0e4a7da3dea950FF3F19269d9063) | [0xA07e45A987F19E25176c877d98388878622623FA](https://mumbai.polygonscan.com/address/0xA07e45A987F19E25176c877d98388878622623FA) |
-
-</TabItem>
-<TabItem value="mainnet">
-
 # ETM3-Mainnet
 
 If you want to get your token mapped then please send your mapping request.
@@ -70,7 +38,3 @@ The table below shows some examples about different mapped tokens on ETM3-Mainne
 | DummyERC721Token  | PoS    | [0x71B821aa52a49F32EEd535fCA6Eb5aa130085978](https://etherscan.io/address/0x71B821aa52a49F32EEd535fCA6Eb5aa130085978) | [0x6EBEAC13f6403D19C95b6B75008B12fd21a93Aab](https://polygonscan.com/address/0x6EBEAC13f6403D19C95b6B75008B12fd21a93Aab) |
 | DummyERC1155Token | PoS    | [0x556f501CF8a43216Df5bc9cC57Eb04D4FFAA9e6D](https://etherscan.io/address/0x556f501CF8a43216Df5bc9cC57Eb04D4FFAA9e6D) | [0xA0c68C638235ee32657e8f720a23ceC1bFc77C77](https://polygonscan.com/address/0xA0c68C638235ee32657e8f720a23ceC1bFc77C77) |
 | WDEV | PoS    | [0x4a5df63b0c37b38515e4ee51baf40edd420bf7d5](https://etherscan.io/address/0x4a5df63b0c37b38515e4ee51baf40edd420bf7d5) | [0xa5577d1cec2583058a6bd6d5deac44797c205701](https://polygonscan.com/address/0xa5577d1cec2583058a6bd6d5deac44797c205701) |
-
-
-</TabItem>
-</Tabs>
