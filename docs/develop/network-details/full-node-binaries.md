@@ -14,24 +14,18 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <Tabs
   defaultValue="mainnet"
   values={[
-    { label: 'Polygon-Mainnet', value: 'mainnet', },
-    { label: 'Mumbai-Testnet', value: 'mumbai', },
+    { label: 'ETM3-Mainnet', value: 'mainnet', },
+    { label: 'ETM3-Testnet', value: 'testnet', },
   ]
 }>
 
-<TabItem value="mumbai">
+<TabItem value="testnet">
 
 This section guides you through starting and running a full node on a binary.
-
-For the system requirements, see [Minimum Technical Requirements](http://localhost:3000/docs/develop/network-details/technical-requirements).
 
 :::note
 
 Steps in this guide involve waiting for the Heimdall and Bor services to fully sync. This process takes several days to complete.
-
-Alternatively, you can use a maintained snapshot, which will reduce the sync time to a few hours. For detailed instructions, see [Snapshot Instructions for Heimdall and Bor](https://forum.matic.network/t/snapshot-instructions-for-heimdall-and-bor/2278).
-
-For snapshot download links, see [Polygon Chains Snapshots](https://snapshots.matic.today/).
 
 :::
 
@@ -294,19 +288,13 @@ You can use VPN to restrict access for 22 port as per your requirement and secur
 
 <TabItem value="mainnet">
 
-# Polygon Full Node Setup Using Binaries
+# ETM3 Full Node Setup Using Binaries
 
 This section guides you through starting and running a full node on a binary.
-
-For the system requirements, see [Minimum Technical Requirements](https://docs.polygon.technology/docs/develop/network-details/technical-requirements).
 
 :::note
 
 Steps in this guide involve waiting for the Heimdall and Bor services to fully sync. This process takes several days to complete.
-
-Alternatively, you can use a maintained snapshot, which will reduce the sync time to a few hours. For detailed instructions, see [Snapshot Instructions for Heimdall and Bor](https://forum.matic.network/t/snapshot-instructions-for-heimdall-and-bor/2278).
-
-For snapshot download links, see [Polygon Chains Snapshots](https://snapshots.matic.today/).
 
 :::
 
@@ -449,7 +437,7 @@ cd ~/
 mkdir -p node
 cp -rf launch/<network-name>/sentry/<node-type>/* ~/node
 
-# To setup sentry node for Polygon mainnet
+# To setup sentry node for ETM3 mainnet
 # cp -rf launch/mainnet-v1/sentry/sentry/* ~/node
 ```
 

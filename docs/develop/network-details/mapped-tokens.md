@@ -19,13 +19,13 @@ values={[
 }>
 <TabItem value="testnet">
 
-# Testnet
+# ETM3-Testnet
 
 If you want to get your token mapped then please send your mapping request via https://mapper.polygon.technology/
 
-The table below shows some examples about different mapped tokens on Mumbai testnet, including but not limited to:
+The table below shows some examples about different mapped tokens on Testne, including but not limited to:
 
-| Token Name        | Bridge | Parent Chain Address: Goerli                                                                                                 | Child Chain: MUMBAI                                                                                                                  |
+| Token Name        | Bridge | Parent Chain Address: Testnet                                                                                                 | Child Chain: Testnet                                                                                                                  |
 | ----------------- | ------ | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
 | Polygon             | Plasma | [0x499d11E0b6eAC7c0593d8Fb292DCBbF815Fb29Ae](https://goerli.etherscan.io/address/0x499d11E0b6eAC7c0593d8Fb292DCBbF815Fb29Ae) | [0x0000000000000000000000000000000000001010](https://mumbai.polygonscan.com/address/0x0000000000000000000000000000000000001010) |
 | ERC20\-TestToken  | Plasma | [0x3f152B63Ec5CA5831061B2DccFb29a874C317502](https://goerli.etherscan.io/address/0x3f152B63Ec5CA5831061B2DccFb29a874C317502) | [0x2d7882beDcbfDDce29Ba99965dd3cdF7fcB10A1e](https://mumbai.polygonscan.com/address/0x2d7882beDcbfDDce29Ba99965dd3cdF7fcB10A1e) |
@@ -39,15 +39,15 @@ The table below shows some examples about different mapped tokens on Mumbai test
 </TabItem>
 <TabItem value="mainnet">
 
-# Polygon-Mainnet
+# ETM3-Mainnet
 
-If you want to get your token mapped then please send your mapping request via https://mapper.polygon.technology/
+If you want to get your token mapped then please send your mapping request.
 
-The table below shows some examples about different mapped tokens on Polygon-Mainnet, including but not limited to:
+The table below shows some examples about different mapped tokens on ETM3-Mainnet, including but not limited to:
 
-| Token Name        | Bridge | Parent Chain Address: Ethereum Mainnet                                                                                | Child Chain: Polygon Network                                                                                                      |
+| Token Name        | Bridge | Parent Chain Address: Ethereum Mainnet                                                                                | Child Chain: ETM3 Network                                                                                                      |
 | ----------------- | ------ | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| Polygon             | Plasma | [0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0](https://etherscan.io/address/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0) | [0x0000000000000000000000000000000000001010](https://polygonscan.com/address/0x0000000000000000000000000000000000001010) |
+| ETM3             | Plasma | [0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0](https://etherscan.io/address/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0) | [0x0000000000000000000000000000000000001010](https://polygonscan.com/address/0x0000000000000000000000000000000000001010) |
 | Plasma\-DAI       | Plasma | [0x6b175474e89094c44da98b954eedeac495271d0f](https://etherscan.io/address/0x6b175474e89094c44da98b954eedeac495271d0f) | [0x84000b263080BC37D1DD73A29D92794A6CF1564e](https://polygonscan.com/address/0x84000b263080BC37D1DD73A29D92794A6CF1564e) |
 | ERC20\-TestToken  | Plasma | [0x3db715989dA05C1D17441683B5b41d4510512722](https://etherscan.io/address/0x3db715989dA05C1D17441683B5b41d4510512722) | [0x5E1DDF2e5a0eCDD923692d4b4429d8603825A8C6](https://polygonscan.com/address/0x5E1DDF2e5a0eCDD923692d4b4429d8603825A8C6) |
 | Plasma\-WETH      | Plasma | [0xa45b966996374E9e65ab991C6FE4Bfce3a56DDe8](https://etherscan.io/address/0xa45b966996374E9e65ab991C6FE4Bfce3a56DDe8) | [0x8cc8538d60901d19692F5ba22684732Bc28F54A3](https://polygonscan.com/address/0x8cc8538d60901d19692F5ba22684732Bc28F54A3) |
