@@ -53,9 +53,15 @@ const config = {
         items: [
           {
             type: 'doc',
+            docId: 'basics/blockchain',
+            position: 'left',
+            label: 'Basics',
+          },
+          {
+            type: 'doc',
             docId: 'develop/getting-started',
             position: 'left',
-            label: 'Docs',
+            label: 'Develop',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
