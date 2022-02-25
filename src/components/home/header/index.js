@@ -36,7 +36,7 @@ const headerMenu = [
     children: [
       {
         name: 'Staking',
-        url: '#',
+        url: 'https://app.etm3.com/#/staking',
         icon: {
           on: '/img/header/staking-on.svg',
           off: '/img/header/staking-off.svg'
@@ -45,7 +45,7 @@ const headerMenu = [
       },
       {
         name: 'Bridge',
-        url: '#',
+        url: 'https://app.etm3.com/#/bridge',
         icon: {
           on: '/img/header/bridge-on.svg',
           off: '/img/header/bridge-off.svg'
@@ -54,7 +54,7 @@ const headerMenu = [
       },
       {
         name: 'Token Swap',
-        url: '#',
+        url: 'https://app.etm3.com/#/swap',
         icon: {
           on: '/img/header/tokenswap-on.svg',
           off: '/img/header/tokenswap-off.svg'

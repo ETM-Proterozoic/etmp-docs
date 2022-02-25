@@ -15,7 +15,7 @@ module.exports = {
     "basics/transactions",
     "basics/gas",
     "basics/accounts",
-    "basics/sidechain",
+    // "basics/sidechain",
     "basics/import-account-to-metamask",
   ],
   development: [
@@ -35,7 +35,7 @@ module.exports = {
       items: [
         "develop/network-details/network",
         "develop/network-details/mapped-tokens",
-        "develop/etwork-details/full-node-binaries",
+        "develop/network-details/full-node-binaries",
       ],
     },
     {
