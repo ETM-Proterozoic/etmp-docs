@@ -40,8 +40,8 @@ module.exports = {
       network_id: "*",       // Any network (default: none)
     },
     etm3: {
-      provider: () => new HDWalletProvider(mnemonic, `https://rpc-mumbai.maticvigil.com`),
-      network_id: 80001,
+      provider: () => new HDWalletProvider(mnemonic, `https://testnet-rpc.etm3.com`),
+      network_id: 37,
       confirmations: 2,
       timeoutBlocks: 200,
       skipDryRun: true

@@ -40,7 +40,7 @@ module.exports = {
   networks: {
     hardhat: {
     },
-    etm: {
+    etm3: {
       url: "https://testnet-rpc.etm3.com",
       accounts: [process.env.PRIVATE_KEY]
     }
