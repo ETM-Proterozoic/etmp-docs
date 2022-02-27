@@ -27,33 +27,14 @@ Please make sure you have already installed <ins>**[Metamask](https://metamask.i
   defaultValue="mainnet"
   values={[
     { label: 'ETM3-Mainnet', value: 'mainnet', },
-    { label: 'ETM3-Testnet', value: 'testnet', },
   ]
 }>
-
-<TabItem value="testnet">
-
-Please follow the steps to add ETM3's ETM3-Testnet:
-
-- Navigate to [testnet.etm3scan.com](https://testnet.etm3scan.com/)
-
-<img src={useBaseUrl("img/metamask/testnet-button.png")} />
-<p></p>
-
-- Scroll down to the bottom of the page and click on the button `Add ETM3 Network`
-
-<img src={useBaseUrl("img/metamask/testnet-addnetwork.png")} />
-
-- Once you click the button you will see a Metamask Notification, now click on **Approve**.
-You will be directly switched to ETM3’s Mainnet now in the network dropdown list. You can now close the dialog.
-
-</TabItem>
 
 <TabItem value="mainnet">
 
 Please follow the steps to add ETM3’s Mainnet:
 
-- Navigate to [etm3scan.com](https://etm3scan.com/)
+- Navigate to [etm3.com](https://etm3.com/)
 
 <img src={useBaseUrl("img/metamask/mainnet-button.png")} />
 <p></p>
@@ -76,22 +57,10 @@ If you are facing any issue, **Add the Network Manually(steps given below)**
 <Tabs
   defaultValue="mainnet"
   values={[
-    { label: 'ETM3-Mainnet', value: 'mainnet', },
-    { label: 'ETM3-Testnet', value: 'testnet', },
+    { label: 'ETM3-Mainnet', value: 'mainnet', }
   ]
 }>
 
-<TabItem value="Testnet">
-To add ETM3's ETM3-Testnet, click on the Network selection dropdown and then click on Custom RPC.
-
-<img src={useBaseUrl("img/metamask/select-network.png")} />
-
-It will open up a form with 2 tabs on the top, Settings and Info. In the Settings tab you can add `ETM3 Testnet` in the Network Name field, URL `https://rpc-mumbai.maticvigil.com/` in the New RPC URL field, `80001` in Chain ID field, `MATIC` in Currency Symbol field and `https://mumbai.polygonscan.com/` in Block Explorer URL field.
-
-<img src={useBaseUrl("img/metamask/metamask-settings-mumbai.png")} />
-
-Once you’ve added the URL in the New Network field, click on Save. You will be directly switched to ETM3’s ETM3-Testnet now in the network dropdown list. You can now close the dialog.
-</TabItem>
 
 <TabItem value="mainnet">
 To add ETM3’s Mainnet, click on the Network selection dropdown and then click on Custom RPC.
