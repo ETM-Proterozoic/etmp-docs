@@ -74,6 +74,7 @@ go build -o etm3-chain main.go
 sudo mv etm3-chain /usr/local/bin
 ```
 
+
 ### Setup launch directory
 
 ```bash
@@ -81,7 +82,7 @@ mkdir etm3
 cd etm3
 etm3-chain secrets init --data-dir node
 cd ..
-wget https://raw.githubusercontent.com/ETM3/etm3-chain/develop/genesis.json -O genesis.json
+wget https://raw.githubusercontent.com/ETM3/etm3-chain/develop/genesis-testnet.json -O genesis.json
 ```
 
 ## Start services
@@ -91,6 +92,7 @@ Run the full Heimdall node with the following commands:
 ```bash
 polygon-edge server --data-dir ./test-chain-1 --chain genesis.json --grpc :10000 --libp2p 0.0.0.0:10001 --jsonrpc 0.0.0.0:10002 --nat 0.0.0.0 --seal
 ```
+
 
 </TabItem>
 
@@ -156,7 +158,7 @@ mkdir etm3
 cd etm3
 etm3-chain secrets init --data-dir node
 cd ..
-wget https://raw.githubusercontent.com/ETM3/etm3-chain/develop/genesis-testnet.json -O genesis.json
+wget https://raw.githubusercontent.com/ETM3/etm3-chain/develop/genesis.json -O genesis.json
 ```
 
 ## Start services
