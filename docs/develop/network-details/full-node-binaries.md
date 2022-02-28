@@ -90,7 +90,7 @@ wget https://raw.githubusercontent.com/ETM3/etm3-chain/develop/genesis-testnet.j
 Run the full Heimdall node with the following commands:
 
 ```bash
-polygon-edge server --data-dir ./test-chain-1 --chain genesis.json --grpc :10000 --libp2p 0.0.0.0:10001 --jsonrpc 0.0.0.0:10002 --nat 0.0.0.0 --seal
+etm3-chain server --data-dir ./node --chain genesis.json --jsonrpc 0.0.0.0:8545
 ```
 
 
@@ -166,7 +166,7 @@ wget https://raw.githubusercontent.com/ETM3/etm3-chain/develop/genesis.json -O g
 Run the full Heimdall node with the following commands:
 
 ```bash
-polygon-edge server --data-dir ./test-chain-1 --chain genesis.json --grpc :10000 --libp2p 0.0.0.0:10001 --jsonrpc 0.0.0.0:10002 --nat 0.0.0.0 --seal
+etm3-chain server --data-dir ./node --chain genesis.json --jsonrpc 0.0.0.0:8545
 ```
 
 </TabItem>
