@@ -63,7 +63,7 @@ const headerMenu = [
       },
       {
         name: 'Explorer',
-        url: '#',
+        url: 'https://etm3scan.com/',
         icon: {
           on: '/img/header/explorer-on.svg',
           off: '/img/header/explorer-off.svg'
