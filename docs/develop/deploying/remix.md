@@ -116,7 +116,7 @@ Go to Solidity Compiler
 - Put in a Network name - “ETM/P Testnet”
 - In URL field you can add the URL as "https://testnet-rpc.etm.network"
 - Enter the Chain ID: 80001
-- (Optional Fields) Symbol: "maticmum" and Block Explorer URL: "https://testnet.etm3scan.com/"
+- (Optional Fields) Symbol: "maticmum" and Block Explorer URL: "https://testnet.etmscan.network"
 <div
         style={{
           display: "flex",
@@ -176,7 +176,7 @@ Select 'Mumbai' as the network and 'ETM/P Token' as the token in the faucet
       >
         <img src={useBaseUrl("img/helloworld/Screenshot_2020-02-14_at_1.45.23_PM.png")} alt="RemixIDE_Step1"/>
 </div>
-**Congratulations!** You have successfully deployed HelloWorld Smart Contract. Now you can interact with the Smart Contract. Check the deployment status here: https://testnet.etm3scan.com/
+**Congratulations!** You have successfully deployed HelloWorld Smart Contract. Now you can interact with the Smart Contract. Check the deployment status here: https://testnet.etmscan.network
 
 <div
         style={{

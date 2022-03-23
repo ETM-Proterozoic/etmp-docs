@@ -29,7 +29,7 @@ The documentation corresponding contains details for the RPC - HTTP endpoints. T
 | chainId      | `37`                                  |
 | Gas Token    | `ETM/P Token`|
 | RPC          | `https://testnet-rpc.etm.network`
-| Block Explorer |[`https:/test.etm3scan.com/`](https://test.etm3scan.com/)|
+| Block Explorer |[`https:/test.etmscan.network/`](https://test.etmscan.network/)|
 
 
 
@@ -53,7 +53,7 @@ The documentation corresponding contains details for the RPC - HTTP. There is al
 | chainId      | `36`                                  |
 | Gas Token    | `ETM/P Token` |
 | RPC    | [`https://rpc.etm.network`](https://rpc.etm.network) |
-| Block Explorer | [`https://etm3scan.com/`](https://www.etm3scan.com/)|
+| Block Explorer | [`https://etmscan.network/`](https://www.etmscan.network/)|
 
 
 

@@ -15,7 +15,7 @@ export function changeNetWork () {
           decimals: 18,
         },
         rpcUrls: ['https://rpc.etm.network/'],
-        blockExplorerUrls: ['https://etm3scan.com'],
+        blockExplorerUrls: ['https://etmscan.network'],
       }
     ],
   }).then(() => {

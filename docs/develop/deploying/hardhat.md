@@ -80,7 +80,7 @@ Greeter deployed to: 0xfaFfCAD549BAA6110c5Cc03976d9383AcE90bdBE
 > Remember your address would differ, Above is just to provide an idea of structure.
 **Congratulations!** You have successfully deployed Greeter Smart Contract. Now you can interact with the Smart Contract.
 
-You can check the deployment status here: https://testnet.etm3scan.com/
+You can check the deployment status here: https://testnet.etmscan.network
 
 
 

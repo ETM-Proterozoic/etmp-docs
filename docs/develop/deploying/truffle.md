@@ -113,4 +113,4 @@ Summary
 
 **Congratulations!** You have successfully deployed HelloWorld Smart Contract. Now you can interact with the Smart Contract.
 
-You can check the deployment status here: https://testnet.etm3scan.com/
+You can check the deployment status here: https://testnet.etmscan.network
