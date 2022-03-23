@@ -46,8 +46,8 @@ const list = [
   },
   {
     icon: '/img/home/block3-8.svg',
-    title: 'nfDAO',
-    desc: 'nfDAO is a community DAO whose primary mission is to support and fund NFT projects.',
+    title: 'nftDAO',
+    desc: 'nftDAO is a community DAO whose primary mission is to support and fund NFT projects.',
     tag: 'DAO'
   }
 ]
