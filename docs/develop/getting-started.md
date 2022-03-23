@@ -26,7 +26,7 @@ Switch over to ETM3's RPC and get started!
     - [Using Truffle](/docs/develop/truffle)
     - [Using Hardhat](/docs/develop/hardhat)
     
-- Connecting to ETM3 [with RPC](https://etm3.com/docs/develop/metamask/config-etm3-on-metamask) by adding ETM3 on Metamask.
+- Connecting to ETM3 [with RPC](https://etm.network/docs/develop/metamask/config-etm3-on-metamask) by adding ETM3 on Metamask.
 
   Note that same RPC can be used with web3js.
 
@@ -35,8 +35,8 @@ Switch over to ETM3's RPC and get started!
   
     const Web3 = require('Web3')
   
-    // Sign up for a free dedicated RPC URL at https://testnet-rpc.etm3.com or other hosted node providers.
-    const web3 = new Web3('https://testnet-rpc.etm3.com')
+    // Sign up for a free dedicated RPC URL at https://testnet-rpc.etm.network or other hosted node providers.
+    const web3 = new Web3('https://testnet-rpc.etm.network')
   
     // web3 object is now connected with ETM3's node
     ```
@@ -57,7 +57,7 @@ Switch over to ETM3's RPC and get started!
 - [Full Stack DApp: Tutorial Series](https://kauri.io/full-stack-dapp-tutorial-series/5b8e401ee727370001c942e3/c)
 - Getting to know your tools:
 
-    - [Web3js](https://www.dappuniversity.com/articles/web3-js-intro), [Ethers.js](https://docs.ethers.io/v5/),[Remix](https://etm3.com/docs/develop/remix/), [Truffle](https://etm3.com/docs/develop/truffle), [Metamask](/docs/develop/metamask/overview)
+    - [Web3js](https://www.dappuniversity.com/articles/web3-js-intro), [Ethers.js](https://docs.ethers.io/v5/),[Remix](https://etm.network/docs/develop/remix/), [Truffle](https://etm.network/docs/develop/truffle), [Metamask](/docs/develop/metamask/overview)
 - [Integrating Webhooks](https://docs.alchemy.com/alchemy/guides/v2-alchemy-notify)
 - [Archive Nodes with Debug namespace](https://www.quicknode.com/chains/matic?utm_source=etm3_docs&utm_campaign=ploygon_docs_contract_guide)
 

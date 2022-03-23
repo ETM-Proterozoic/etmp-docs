@@ -12,7 +12,7 @@ const list = [
     items: [
       {
         finish: true,
-        txt: 'Deploy & Start the ETM3 Testnet'
+        txt: 'Deploy & Start the ETM/P Testnet'
       },
       {
         finish: true,
@@ -24,7 +24,7 @@ const list = [
       },
       {
         finish: false,
-        txt: 'ETM3 Bridge Launch'
+        txt: 'ETM/P Bridge Launch'
       }
     ]
   },
@@ -50,7 +50,7 @@ const list = [
     items: [
       {
         finish: false,
-        txt: 'ETM3 Mainnet Launch'
+        txt: 'ETM/P Mainnet Launch'
       }
     ]
   }

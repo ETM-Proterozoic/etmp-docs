@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'ETM3 | Powerful, Fast, Low Cost For Web3',
   tagline: 'ETM3',
-  url: 'https://etm3.com/',
+  url: 'https://etm.network',
   baseUrl: '/',
   onBrokenLinks: 'log',
   onBrokenMarkdownLinks: 'warn',

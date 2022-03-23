@@ -32,11 +32,11 @@ const headerMenu = [
     target: '_self'
   },
   {
-    name: 'Use ETM3',
+    name: 'Use ETM/P',
     children: [
       {
         name: 'Staking',
-        url: 'https://app.etm3.com/#/staking',
+        url: 'https://app.etm.network/#/staking',
         icon: {
           on: '/img/header/staking-on.svg',
           off: '/img/header/staking-off.svg'
@@ -45,7 +45,7 @@ const headerMenu = [
       },
       {
         name: 'Bridge',
-        url: 'https://app.etm3.com/#/bridge',
+        url: 'https://app.etm.network/#/bridge',
         icon: {
           on: '/img/header/bridge-on.svg',
           off: '/img/header/bridge-off.svg'
@@ -54,7 +54,7 @@ const headerMenu = [
       },
       {
         name: 'Token Swap',
-        url: 'https://app.etm3.com/#/swap',
+        url: 'https://app.etm.network/#/swap',
         icon: {
           on: '/img/header/tokenswap-on.svg',
           off: '/img/header/tokenswap-off.svg'
@@ -115,7 +115,7 @@ export default function Header() {
                       <div className="header-menu-list-hover-view">
                         <div className="header-menu-add-network" onClick={changeNetWork}>
                           <img src={useBaseUrl('/img/header/metamask.svg')} alt=""/>
-                          Add ETM3 Network to Metamask
+                          Add ETM/P Network to Metamask
                         </div>
                         <div className="header-menu-list-hover-view-items">
                           {

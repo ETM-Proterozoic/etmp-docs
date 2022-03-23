@@ -8,13 +8,13 @@ export function changeNetWork () {
     params: [
       {
         chainId: '0x24',
-        chainName: 'ETM3 Mainnet',
+        chainName: 'ETM/P Mainnet',
         nativeCurrency: {
-          name: 'ETM3',
-          symbol: 'ETM3',
+          name: 'ETM',
+          symbol: 'ETM',
           decimals: 18,
         },
-        rpcUrls: ['https://rpc.etm3.com/'],
+        rpcUrls: ['https://rpc.etm.network/'],
         blockExplorerUrls: ['https://etm3scan.com'],
       }
     ],

@@ -34,7 +34,7 @@ Please make sure you have already installed <ins>**[Metamask](https://metamask.i
 
 Please follow the steps to add ETM3’s Mainnet:
 
-- Navigate to [etm3.com](https://etm3.com/)
+- Navigate to [etm.network](https://etm.network/)
 
 <img src={useBaseUrl("img/metamask/mainnet-button.png")} />
 <p></p>

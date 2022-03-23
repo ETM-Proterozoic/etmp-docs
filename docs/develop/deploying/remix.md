@@ -114,7 +114,7 @@ Go to Solidity Compiler
 </div>
 
 - Put in a Network name - “ETM3 Testnet”
-- In URL field you can add the URL as "https://testnet-rpc.etm3.com"
+- In URL field you can add the URL as "https://testnet-rpc.etm.network"
 - Enter the Chain ID: 80001
 - (Optional Fields) Symbol: "maticmum" and Block Explorer URL: "https://testnet.etm3scan.com/"
 <div
