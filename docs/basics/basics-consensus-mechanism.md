@@ -1,10 +1,10 @@
 ---
 id: consensus-mechanism
 title: Consensus Mechanism
-description: Build your next blockchain app on ETM3.
+description: Build your next blockchain app on ETM/P.
 keywords:
   - docs
-  - ETM3
+  - ETM/P
 ---
 
 A Consensus mechanism is a fault-tolerant mechanism that is used in computer and blockchain systems to achieve the necessary agreement on a single data value or a single state of the network among distributed processes or multi-agent systems, such as with cryptocurrencies.

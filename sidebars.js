@@ -22,7 +22,7 @@ module.exports = {
     "develop/getting-started",
     {
       type: "category",
-      label: "Deploying on ETM3",
+      label: "Deploying on ETM/P",
       items: [
         "develop/deploying/remix",
         "develop/deploying/truffle",
@@ -40,7 +40,7 @@ module.exports = {
     },
     {
       type: "category",
-      label: "Configure ETM3 on Metamask",
+      label: "Configure ETM/P on Metamask",
       items: [
         "develop/metamask/overview",
         "develop/metamask/hello",

@@ -1,32 +1,32 @@
 ---
 id: getting-started
-title: Application development on ETM3
+title: Application development on ETM/P
 sidebar_label: Getting Started
-description: Build your next blockchain app on ETM3.
+description: Build your next blockchain app on ETM/P.
 keywords:
   - docs
-  - ETM3
+  - ETM/P
 ---
 
-Welcome to the most exciting and innovative platform to build your blockchain application on **ETM3 Blockchain**. Blockchain technology is poised to revolutionise the way the digital world handles data and does business. Be a part of this revolution and get a head start with decentralised application development on ETM3.
+Welcome to the most exciting and innovative platform to build your blockchain application on **ETM/P Blockchain**. Blockchain technology is poised to revolutionise the way the digital world handles data and does business. Be a part of this revolution and get a head start with decentralised application development on ETM/P.
 
-This page will act as your guide into the **ETM3 Ecosystem**. You'll find links to some useful resources and websites to get you up and started with building on ETM3 in particular and Blockchain in general. Feel free to reach out to us on Telegram/Discord.
+This page will act as your guide into the **ETM/P Ecosystem**. You'll find links to some useful resources and websites to get you up and started with building on ETM/P in particular and Blockchain in general. Feel free to reach out to us on Telegram/Discord.
 
 ## **Developer Quick Start**
 
-If you're an Ethereum Developer, you're already a ETM3 developer.
-All the tools you're familiar with are supported on ETM3 out of the box: Truffle, Remix, Web3js.
-Switch over to ETM3's RPC and get started!
+If you're an Ethereum Developer, you're already a ETM/P developer.
+All the tools you're familiar with are supported on ETM/P out of the box: Truffle, Remix, Web3js.
+Switch over to ETM/P's RPC and get started!
 
 - Setup [Metamask Wallet](/docs/develop/metamask/overview)
 
-- Deploy your Contracts on ETM3
+- Deploy your Contracts on ETM/P
     
     - [Using Remix](/docs/develop/remix)
     - [Using Truffle](/docs/develop/truffle)
     - [Using Hardhat](/docs/develop/hardhat)
     
-- Connecting to ETM3 [with RPC](https://etm.network/docs/develop/metamask/config-etm3-on-metamask) by adding ETM3 on Metamask.
+- Connecting to ETM/P [with RPC](https://etm.network/docs/develop/metamask/config-etm3-on-metamask) by adding ETM/P on Metamask.
 
   Note that same RPC can be used with web3js.
 
@@ -38,7 +38,7 @@ Switch over to ETM3's RPC and get started!
     // Sign up for a free dedicated RPC URL at https://testnet-rpc.etm.network or other hosted node providers.
     const web3 = new Web3('https://testnet-rpc.etm.network')
   
-    // web3 object is now connected with ETM3's node
+    // web3 object is now connected with ETM/P's node
     ```
 
 ---
@@ -47,10 +47,10 @@ Switch over to ETM3's RPC and get started!
 
 - **Migrating from Ethereum chain (or any EVM based chain for that matter)**
 
-    Deploy all your smart contracts directly on ETM3 chain. You don't have to worry about the underlying architecture, as long as it is EVM compatible!
+    Deploy all your smart contracts directly on ETM/P chain. You don't have to worry about the underlying architecture, as long as it is EVM compatible!
 
 
-### **🌱 Building a new dApp on ETM3?**
+### **🌱 Building a new dApp on ETM/P?**
 
 **🏗️ Start building!**
 

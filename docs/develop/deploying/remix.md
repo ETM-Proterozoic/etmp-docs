@@ -2,10 +2,10 @@
 id: remix
 title: Using Remix
 sidebar_label: Using Remix
-description: Build your next blockchain app on ETM3.
+description: Build your next blockchain app on ETM/P.
 keywords:
   - docs
-  - ETM3
+  - ETM/P
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
@@ -100,7 +100,7 @@ Go to Solidity Compiler
 - Now, ```Compile HelloWorld.sol```
 - After Successful Compilation, it will show 
 <img src={useBaseUrl("img/helloworld/Screenshot_2020-02-14_at_1.08.22_PM.png")} />
-- Now, We have to deploy our smart contract on ETM3 Network. For that, we have to connect to web3 world, this can be done by using any of the services like Metamask, Brave, Portis etc. We will be using Metamask. Please follow this [tutorial to setup a Metamask Account](/docs/develop/metamask/hello).
+- Now, We have to deploy our smart contract on ETM/P Network. For that, we have to connect to web3 world, this can be done by using any of the services like Metamask, Brave, Portis etc. We will be using Metamask. Please follow this [tutorial to setup a Metamask Account](/docs/develop/metamask/hello).
 - Open Metamask and select Custom RPC from the networks dropdown
 
 <div
@@ -113,7 +113,7 @@ Go to Solidity Compiler
         <img src={useBaseUrl("img/helloworld/metamask-custom-rpc.png")} alt="RemixIDE_Step1"/>
 </div>
 
-- Put in a Network name - “ETM3 Testnet”
+- Put in a Network name - “ETM/P Testnet”
 - In URL field you can add the URL as "https://testnet-rpc.etm.network"
 - Enter the Chain ID: 80001
 - (Optional Fields) Symbol: "maticmum" and Block Explorer URL: "https://testnet.etm3scan.com/"
@@ -138,9 +138,9 @@ Go to Solidity Compiler
         <img src={useBaseUrl("img/helloworld/Screenshot_2020-01-09_at_1.24.49_PM.png")} alt="RemixIDE_Step1"/>
 </div>
 
-- Head over to [Faucet](https://faucet.polygon.technology/) and request test ether - you will need this pay for gas on ETM3. 
-Select 'Mumbai' as the network and 'ETM3 Token' as the token in the faucet
-- Now, let's Deploy the Smart Contract on ETM3 Network
+- Head over to [Faucet](https://faucet.polygon.technology/) and request test ether - you will need this pay for gas on ETM/P. 
+Select 'Mumbai' as the network and 'ETM/P Token' as the token in the faucet
+- Now, let's Deploy the Smart Contract on ETM/P Network
 - Select Injected Web3 in the Environment dropdown and your contract
 
 <div
@@ -187,7 +187,7 @@ Select 'Mumbai' as the network and 'ETM3 Token' as the token in the faucet
       >
         <img src={useBaseUrl("img/helloworld/Screenshot_2020-02-14_at_2.00.19_PM.png")} alt="RemixIDE_Step1"/>
 </div>
-# **Verifying your Contracts on ETM3Scan**
+# **Verifying your Contracts on ETM/PScan**
 
 
 The first and foremost step is to flatten the solidity contract into a single file.
@@ -201,7 +201,7 @@ Flatten using command
 
 ```sol-merger \"./contracts/*.sol\" ./build```
 
-## **Verifying on ETM3Scan**
+## **Verifying on ETM/PScan**
 
 Navigate to your contract's polygonscan page and then click verify and publish
 

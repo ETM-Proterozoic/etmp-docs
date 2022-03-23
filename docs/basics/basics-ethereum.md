@@ -2,10 +2,10 @@
 id: ethereum
 title: What is Ethereum?
 sidebar_label: Ethereum
-description: Build your next blockchain app on ETM3.
+description: Build your next blockchain app on ETM/P.
 keywords:
   - docs
-  - ETM3
+  - ETM/P
 ---
 
 Ethereum is the foundation for a new era of the internet:

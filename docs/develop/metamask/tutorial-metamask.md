@@ -2,10 +2,10 @@
 id: hello
 title: How to create a MetaMask Wallet?
 sidebar_label: Hello Metamask
-description: Build your next blockchain app on ETM3.
+description: Build your next blockchain app on ETM/P.
 keywords:
   - docs
-  - ETM3
+  - ETM/P
 ---
 If you are wondering how to create a new cryptocurrency wallet, consider creating one by installing the MetaMask extension.
 

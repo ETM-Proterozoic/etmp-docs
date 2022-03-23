@@ -2,10 +2,10 @@
 id: transactions
 title: What are Transactions?
 sidebar_label: Transactions
-description: Build your next blockchain app on ETM3.
+description: Build your next blockchain app on ETM/P.
 keywords:
   - docs
-  - ETM3
+  - ETM/P
 ---
 
 The term “transaction” is used to refer to the signed data package that stores a message to be sent from an externally owned account to another account on the blockchain.

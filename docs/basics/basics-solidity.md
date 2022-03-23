@@ -2,10 +2,10 @@
 id: solidity
 title: What is Solidity?
 sidebar_label: Solidity
-description: Build your next blockchain app on ETM3.
+description: Build your next blockchain app on ETM/P.
 keywords:
   - docs
-  - ETM3
+  - ETM/P
 ---
 
 ## Solidity<img src = 'https://solidity.readthedocs.io/en/v0.6.11/_images/logo.svg' width='50'/> 

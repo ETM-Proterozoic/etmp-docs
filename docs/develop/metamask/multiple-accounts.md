@@ -1,10 +1,10 @@
 ---
 id: multiple-accounts
 title: Create & Import Accounts
-description: Build your next blockchain app on ETM3.
+description: Build your next blockchain app on ETM/P.
 keywords:
   - docs
-  - ETM3
+  - ETM/P
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl'; 
 

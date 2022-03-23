@@ -2,10 +2,10 @@
 id: blockchain
 title: What is Blockchain?
 sidebar_label: Blockchain
-description: Build your next blockchain app on ETM3.
+description: Build your next blockchain app on ETM/P.
 keywords:
   - docs
-  - ETM3
+  - ETM/P
 ---
 
 Blockchain is a shared, transparent and immutable ledger for recording transactions, tracking assets and building trust. It is a distributed ledger technology, which securely records information across a peer-to-peer network. Although it was created for financial service, blockchain's potential lies far beyond cryptocurrency. These ledgers can record data from Health sector, Land Registry, eSports, Enterprise Records, logistics Manifests, identities - almost anything that holds value.

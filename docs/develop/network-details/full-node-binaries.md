@@ -1,10 +1,10 @@
 ---
 id: full-node-binaries
 title: Full Node Binaries
-description: Build your next blockchain app on ETM3.
+description: Build your next blockchain app on ETM/P.
 keywords:
   - docs
-  - ETM3
+  - ETM/P
 ---
 
 import Tabs from '@theme/Tabs';
@@ -14,8 +14,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <Tabs
   defaultValue="mainnet"
   values={[
-    { label: 'ETM3-Mainnet', value: 'mainnet', },
-    { label: 'ETM3-Testnet', value: 'testnet', },
+    { label: 'ETM/P-Mainnet', value: 'mainnet', },
+    { label: 'ETM/P-Testnet', value: 'testnet', },
   ]
 }>
 
@@ -98,7 +98,7 @@ etm3-chain server --data-dir ./node --chain genesis.json --jsonrpc 0.0.0.0:8545
 
 <TabItem value="mainnet">
 
-# ETM3 Full Node Setup Using Binaries
+# ETM/P Full Node Setup Using Binaries
 
 This section guides you through starting and running a full node on a binary.
 

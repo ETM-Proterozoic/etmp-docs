@@ -2,19 +2,19 @@
 id: overview
 title: Overview of MetaMask
 sidebar_label: Overview
-description: How you can get started with MetaMask on ETM3
+description: How you can get started with MetaMask on ETM/P
 keywords:
   - docs
-  - ETM3
+  - ETM/P
   - wallet
 ---
 
 [MetaMask](https://metamask.io/) is a crypto wallet that can be used in a web browser and on mobile devices to interact with the Ethereum blockchain. It allows you to run Ethereum Dapps (Decentralized Apps) right in your browser without running a full Ethereum node.
 
-## Guide to Setup Metamask for ETM3
+## Guide to Setup Metamask for ETM/P
 
 * [Download & Install MetaMask](/develop/metamask/tutorial-metamask.md)
-* [Configure ETM3 on MetaMask](/develop/metamask/config-etm3-on-metamask.md)
+* [Configure ETM/P on MetaMask](/develop/metamask/config-etm3-on-metamask.md)
 * [Config Custom Tokens](/develop/metamask/custom-tokens.md)
 * [Create & Import Accounts](/develop/metamask/multiple-accounts.md)
 

@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'ETM3 | Powerful, Fast, Low Cost For Web3',
-  tagline: 'ETM3',
+  title: 'ETM/P | Powerful, Fast, Low Cost For Web3',
+  tagline: 'ETM/P',
   url: 'https://etm.network',
   baseUrl: '/',
   onBrokenLinks: 'log',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.svg',
-  organizationName: 'ETM3', // Usually your GitHub org/user name.
-  projectName: 'ETM3', // Usually your repo name.
+  organizationName: 'ETM/P', // Usually your GitHub org/user name.
+  projectName: 'ETM/P', // Usually your repo name.
 
   presets: [
     [
@@ -45,7 +45,7 @@ const config = {
       navbar: {
         title: '',
         logo: {
-          alt: 'ETM3',
+          alt: 'ETM/P',
           src: 'img/logo.svg',
           srcDark: 'img/logo-dark.svg',
           width: '80px'

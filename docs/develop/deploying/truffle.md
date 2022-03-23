@@ -1,10 +1,10 @@
 ---
 id: truffle
 title: Using Truffle
-description: Build your next blockchain app on ETM3.
+description: Build your next blockchain app on ETM/P.
 keywords:
   - docs
-  - ETM3
+  - ETM/P
 ---
 
 ## **Setting up the development environment**
@@ -63,16 +63,16 @@ module.exports = {
 
 Notice, it requires mnemonic to be passed in for maticProvider, this is the seed phrase for the account you'd like to deploy from. Create a new .secret file in root directory and enter your 12 word mnemonic seed phrase to get started. To get the seedwords from metamask wallet you can go to Metamask Settings, then from the menu choose Security and Privacy where you will see a button that says reveal seed words. 
 
-## **Deploying on ETM3 Network**
+## **Deploying on ETM/P Network**
 
-Add ETM3 to your wallet using Metamask
+Add ETM/P to your wallet using Metamask
 
 Run this command in root of the project directory:
 ```js
 $ truffle migrate --network etm3
 ```
 
-Contract will be deployed on ETM3's Testnet, it look like this:
+Contract will be deployed on ETM/P's Testnet, it look like this:
 
 ```js
 2_deploy_contracts.js

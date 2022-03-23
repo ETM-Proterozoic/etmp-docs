@@ -1,21 +1,21 @@
 ---
 id: mapped-tokens
 title: Mapped Tokens
-description: Build your next blockchain app on ETM3.
+description: Build your next blockchain app on ETM/P.
 keywords:
   - docs
-  - ETM3
+  - ETM/P
 ---
 
-# ETM3-Mainnet
+# ETM/P-Mainnet
 
 If you want to get your token mapped then please send your mapping request.
 
-The table below shows some examples about different mapped tokens on ETM3-Mainnet, including but not limited to:
+The table below shows some examples about different mapped tokens on ETM/P-Mainnet, including but not limited to:
 
-| Token Name        | Bridge | Parent Chain Address: Ethereum Mainnet                                                                                | Child Chain: ETM3 Network                                                                                                      |
+| Token Name        | Bridge | Parent Chain Address: Ethereum Mainnet                                                                                | Child Chain: ETM/P Network                                                                                                      |
 | ----------------- | ------ | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| ETM3             | Plasma | [0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0](https://etherscan.io/address/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0) | [0x0000000000000000000000000000000000001010](https://polygonscan.com/address/0x0000000000000000000000000000000000001010) |
+| ETM/P             | Plasma | [0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0](https://etherscan.io/address/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0) | [0x0000000000000000000000000000000000001010](https://polygonscan.com/address/0x0000000000000000000000000000000000001010) |
 | Plasma\-DAI       | Plasma | [0x6b175474e89094c44da98b954eedeac495271d0f](https://etherscan.io/address/0x6b175474e89094c44da98b954eedeac495271d0f) | [0x84000b263080BC37D1DD73A29D92794A6CF1564e](https://polygonscan.com/address/0x84000b263080BC37D1DD73A29D92794A6CF1564e) |
 | ERC20\-TestToken  | Plasma | [0x3db715989dA05C1D17441683B5b41d4510512722](https://etherscan.io/address/0x3db715989dA05C1D17441683B5b41d4510512722) | [0x5E1DDF2e5a0eCDD923692d4b4429d8603825A8C6](https://polygonscan.com/address/0x5E1DDF2e5a0eCDD923692d4b4429d8603825A8C6) |
 | Plasma\-WETH      | Plasma | [0xa45b966996374E9e65ab991C6FE4Bfce3a56DDe8](https://etherscan.io/address/0xa45b966996374E9e65ab991C6FE4Bfce3a56DDe8) | [0x8cc8538d60901d19692F5ba22684732Bc28F54A3](https://polygonscan.com/address/0x8cc8538d60901d19692F5ba22684732Bc28F54A3) |

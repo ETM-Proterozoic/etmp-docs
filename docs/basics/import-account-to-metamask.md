@@ -2,16 +2,16 @@
 id: import-account-to-metamask
 title: Importing an Account to Metamask
 sidebar_label: Importing an Account to Metamask
-description: Build your next blockchain app on ETM3.
+description: Build your next blockchain app on ETM/P.
 keywords:
   - docs
-  - ETM3
+  - ETM/P
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 You can always import your account to Metamask if you're using any other web/mobile wallet. All you need to to make sure that you have a backup of your seedphrase.
 
-If you're using ETM3 Wallet then you can backup you seedphrase by going to the Settings and then clicking **Show Passphrase**.
+If you're using ETM/P Wallet then you can backup you seedphrase by going to the Settings and then clicking **Show Passphrase**.
 
 If you don't have the seedphrase you will be unable to import your account to Metamask.
 
@@ -43,12 +43,12 @@ You are now set. You will have successfully imported your account to Metamask.
 
 <img src={useBaseUrl("img/basics/congratulations.png")} />
 
-By default, only ETH is listed in Metamask. If you already have ETM3 tokens then that too will be listed automatically. In order to view your other tokens, you can click on Add Tokens and search the token you want to be listed.
+By default, only ETH is listed in Metamask. If you already have ETM/P tokens then that too will be listed automatically. In order to view your other tokens, you can click on Add Tokens and search the token you want to be listed.
 
 Do keep extreme care of your seedphrase and keep backups, because unlike exchanges, you need to keep your seedphrase safe. If the seedphrase is lost, funds are not recoverable. Also do not ever share this seedphrase with anyone.
 
-### Sending ETM3 tokens from Binance and other exchanges to the Metamask wallet
+### Sending ETM/P tokens from Binance and other exchanges to the Metamask wallet
 
 Most exchanges like Binance and others have an option to withdraw funds from your exchange account to your address on the Ethereum blockchain. Once you have setup an account in Metamask, you will see the address of your account.
 
-To send ETM3 tokens to Metamask, withdraw funds from your exchange account to the Metamask address. After some time, the funds will get reflected in the Metamask account.
+To send ETM/P tokens to Metamask, withdraw funds from your exchange account to the Metamask address. After some time, the funds will get reflected in the Metamask account.

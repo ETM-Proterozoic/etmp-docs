@@ -2,10 +2,10 @@
 id: accounts
 title: What are Accounts?
 sidebar_label: Accounts
-description: Build your next blockchain app on ETM3.
+description: Build your next blockchain app on ETM/P.
 keywords:
   - docs
-  - ETM3
+  - ETM/P
 ---
 The global state of Ethereum is comprised of accounts that interact with one another through a message-passing framework. The most basic interaction is that of sending some value - like etm3 tokens, ether - the native cryptocurrency of Ethereum blockchain.
 Each account is identified by a 20 byte hex identifier which is called an address - this is generated from public key of the account.

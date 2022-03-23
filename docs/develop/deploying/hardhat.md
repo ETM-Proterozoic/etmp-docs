@@ -1,10 +1,10 @@
 ---
 id: hardhat
 title: Using Hardhat
-description: Build your next blockchain app on ETM3.
+description: Build your next blockchain app on ETM/P.
 keywords:
   - docs
-  - ETM3
+  - ETM/P
 ---
 
 ## **Setting up the development environment**
@@ -63,14 +63,14 @@ module.exports = {
 $ npx hardhat compile
 ```
 
-## **Deploying on ETM3 Network**
+## **Deploying on ETM/P Network**
 
 Run this command in root of the project directory:
 ```bash
 $ npx hardhat run scripts/sample-script.js --network etm3
 ```
 
-Contract will be deployed on ETM3's Testnet, it look like this:
+Contract will be deployed on ETM/P's Testnet, it look like this:
 
 ```shell
 Compilation finished successfully

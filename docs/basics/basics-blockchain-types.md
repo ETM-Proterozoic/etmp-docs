@@ -1,10 +1,10 @@
 ---
 id: blockchain-types
 title: Types of Blockchain
-description: Build your next blockchain app on ETM3.
+description: Build your next blockchain app on ETM/P.
 keywords:
   - docs
-  - ETM3
+  - ETM/P
 ---
 
 Following are the major types of blockchain networks:
