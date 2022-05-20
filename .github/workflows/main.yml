@@ -3,7 +3,7 @@ name: Deployement
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
@@ -15,7 +15,7 @@ jobs:
 
       - uses: actions/setup-node@v2
         with:
-          node-version: '15'
+          node-version: '16'
 
       - name: node version
         run: node -v
