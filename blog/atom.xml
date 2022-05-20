@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://etm.network/blog"/>
     <subtitle>ETM/P | Powerful, Fast, Low Cost For Web3 Blog</subtitle>
-    <icon>https://etm.network/img/logo.svg</icon>
+    <icon>https://etm.network/img/favicon.svg</icon>
     <entry>
         <title type="html"><![CDATA[welcome]]></title>
         <id>/2021/08/26/welcome</id>
