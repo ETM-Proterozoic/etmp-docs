@@ -4,22 +4,22 @@ const links = [
   {
     name: 'GitHub',
     icon: require('/img/home/github.svg').default,
-    url: 'https://github.com/ETM3/etm3.github.io'
+    url: 'https://github.com/ETM-Proterozoic'
   },
   {
     name: 'Twitter',
     icon: require('/img/home/twitter.svg').default,
-    url: 'https://twitter.com/EnTanMo1'
+    url: 'https://twitter.com/ETM_Proterozoic'
   },
   {
     name: 'Telegram',
     icon: require('/img/home/telegram.svg').default,
-    url: 'https://t.me/entanmo'
+    url: 'https://t.me/ETM_Proterozoic'
   },
   {
     name: 'Discord',
     icon: require('/img/home/discord.svg').default,
-    url: '#'
+    url: 'https://discord.gg/266cpdzYTZ'
   }
 ]
 

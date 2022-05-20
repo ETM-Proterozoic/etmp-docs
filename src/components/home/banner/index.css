@@ -88,25 +88,18 @@
     height: 620px;
 }
 @media (max-width: 780px) {
-    .home-banner-l{
-        width: calc(100vw - 32px)!important;
-        padding-top: 75px;
-    }
     .home-banner{
         width: calc(100vw - 32px);
         min-width: calc(100vw - 32px);
         max-width: calc(100vw - 32px);
         min-height: auto;
+        max-height: initial;
+        display: flex;
+        flex-direction: column-reverse;
     }
     .home-banner-r{
-        position: absolute;
-        right: auto;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 620px;
-        height: 620px;
-    }
-    .home-banner-r{
+        position: relative;
+        margin-top: 40px;
         width: calc(100vw - 32px);
         height: 100vw;
     }
@@ -118,8 +111,8 @@
     .home-banner-l{
         position: relative;
         z-index: 1;
-        width: 497px;
-        padding-top: 75px;
+        width: calc(100vw - 32px)!important;
+        padding-top: 0;
     }
     .home-banner-l>h1{
         font-size: 48px;

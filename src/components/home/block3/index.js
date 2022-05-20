@@ -4,51 +4,39 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 const list = [
   {
     icon: '/img/home/block3-1.svg',
-    title: 'Aave',
-    desc: 'Aave is an open source and non-custodial liquidity protocol for earning interest on deposits and borrowing assets.',
-    tag: 'DeFi'
+    title: 'MIME',
+    desc: 'Web3 Social IM',
+    tag: 'Social'
   },
   {
     icon: '/img/home/block3-2.svg',
-    title: 'QuickSwap',
-    desc: 'Next-gen Layer 2 DEX. Trade at lightning-fast speeds with near-zero gas fees.',
-    tag: 'DeFi'
+    title: 'OpenVoice',
+    desc: 'One of the coolest voice social apps that  allows Web3 users to tweet with voice, creatively integrating with NFTs to form a voice metaverse.',
+    tag: 'Social'
   },
   {
     icon: '/img/home/block3-3.svg',
-    title: 'SushiSwap',
-    desc: 'The SushiSwap protocol realigns incentives for network participants by introducing revenue sharing and ',
-    tag: 'DeFi'
+    title: 'SECTOKEN',
+    desc: 'Combines blockchain, financial risk management and cybersecurity technologies and provides a security infrastructure for Web3 DApp.',
+    tag: 'Infrastructure'
   },
   {
     icon: '/img/home/block3-4.svg',
-    title: 'Decentraland',
-    desc: 'Decentraland is a virtual game world run by its users. Every piece of land and every item in the virtual land is a non-',
+    title: 'OpenPublish',
+    desc: 'OpenPublish is the world’s first decentralized NFT Publisher. The goal is to build a high liquidity NFTs market. \n',
     tag: 'NFT'
   },
   {
     icon: '/img/home/block3-5.svg',
-    title: 'Milkbox',
-    desc: 'Aave is an open source and non-custodial liquidity protocol for earning interest on deposits and borrowing assets.',
-    tag: 'Game'
+    title: 'PlayTop',
+    desc: 'World\'s first NFT marketplace designed specifically for quadratic players with value and engagement. \n',
+    tag: 'NFT'
   },
   {
     icon: '/img/home/block3-6.svg',
-    title: 'Evolution Land',
-    desc: 'Evolution Land is the first Defi+NFT cross-chain game with each continent built on different blockchain networks.',
+    title: 'GamePug',
+    desc: 'Focuses on the needs of Blockchain game users for information, data and assets to create a Blockchain game community. ',
     tag: 'Game'
-  },
-  {
-    icon: '/img/home/block3-7.svg',
-    title: 'ESCROW PROTOCOL',
-    desc: 'The Escrow Protocol is a decentralized web3 accelerator and crowdfunding platform.',
-    tag: 'DAO'
-  },
-  {
-    icon: '/img/home/block3-8.svg',
-    title: 'nftDAO',
-    desc: 'nftDAO is a community DAO whose primary mission is to support and fund NFT projects.',
-    tag: 'DAO'
   }
 ]
 export default function Block3(){

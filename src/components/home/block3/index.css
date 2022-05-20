@@ -109,6 +109,13 @@
 .home-block3-item-tag.home-block3-tag-DAO{
     background: #16192C;
 }
+.home-block3-item-tag.home-block3-tag-Social{
+    background: #FF6E30;
+}
+.home-block3-item-tag.home-block3-tag-Infrastructure{
+    background: #505780;
+}
+
 
 @media (max-width: 1340px){
     .home-block3-list{

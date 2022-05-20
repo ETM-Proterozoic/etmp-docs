@@ -9,6 +9,7 @@ import Block4 from "../components/home/block4";
 import Footer from "../components/home/footer";
 
 import Layout from '@theme/Layout';
+import Eonothem from "../components/home/eonothem";
 export default function Home() {
 
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Header/>
       <div className={style.homePage}>
         <Banner/>
+        <Eonothem/>
         <Block1/>
         <Block3/>
         <Block4/>
