@@ -15,9 +15,9 @@
 .eonothem-view-desc{
     font-family: 'PingFang SC';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 18px;
-    line-height: 28px;
+    line-height: 25px;
     /* Theme/Dark/Default */
     color: #16192C;
     margin-top: 40px;
@@ -37,22 +37,45 @@
     height: 280px;
     /*width: 623px;*/
 }
+
+@keyframes Float {
+    0%{
+        transform: translate(-50%, -10px);
+    }
+    /*25%{*/
+    /*    transform: translate(-50%, 10px);*/
+    /*}*/
+    50%{
+        transform: translate(-50%, 0);
+    }
+    /*75%{*/
+    /*    transform: translate(-50%, -10px);*/
+    /*}*/
+    100%{
+        transform: translate(-50%, -10px);
+    }
+}
+
 .eonothem-show-box>img:nth-child(1){
     top: 300px;
     left: calc(50% + 55px);
+    animation: Float 3s infinite ease-in-out 100ms;
 }
 .eonothem-show-box>img:nth-child(2){
     top: 190px;
     left: calc(50% - 27.5px);
+    animation: Float 3s infinite ease-in-out 200ms;
 }
 .eonothem-show-box img:nth-child(3){
 
     top: 95px;
     left: calc(50% + 55px);
+    animation: Float 3s infinite ease-in-out 300ms;
 }
 .eonothem-show-box img:nth-child(4){
     top: 0px;
     left: calc(50% - 55px);
+    animation: Float 3s infinite ease-in-out 400ms;
 }
 
 @media (max-width: 780px) {

@@ -9,11 +9,11 @@ export default function Block4(){
     var data = [
       {
       item: 'Staking Reward',
-      count: 190000000,
-      percent: 0.38
+      count: 1000000000,
+      percent: 0.4
     }, {
       item: 'Ecosystem',
-      count: 100000000,
+      count: 1000000000,
       percent: 0.2
     }, {
       item: 'Foundation',
@@ -21,16 +21,16 @@ export default function Block4(){
       percent: 0.1
     }, {
       item: 'Strategic Sale',
-      count: 100000000,
+      count: 1000000000,
       percent: 0.2
     }, {
-      item: 'IEO',
-      count: 10000000,
-      percent: 0.02
+      item: 'Liquidity Management',
+      count: 150000000,
+      percent: 0.03
     }, {
       item: 'Founding Team',
-      count: 50000000,
-      percent: 0.1
+      count: 350000000,
+      percent: 0.07
     }
     ];
     var chart = new G2.Chart({
@@ -42,7 +42,7 @@ export default function Block4(){
     chart.source(data, {
       percent: {
         formatter: function formatter(val) {
-          val = val * 100 + '%';
+          val = (val * 100).toFixed(2)*1 + '%';
           return val;
         }
       }
@@ -66,7 +66,7 @@ export default function Block4(){
         return item.point.item + ': ' + val;
       }
     }).tooltip('item*percent', function(item, percent) {
-      percent = `${percent * 100}%`;
+      percent = `${(percent * 100).toFixed(2) * 1}%`;
       return {
         name: item,
         value: percent
