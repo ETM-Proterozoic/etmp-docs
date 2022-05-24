@@ -19,12 +19,8 @@ const list = [
         txt: 'Marketing & Social Media Partnership'
       },
       {
-        finish: false,
+        finish: true,
         txt: 'Partnership Announcement'
-      },
-      {
-        finish: false,
-        txt: 'ETM/P Bridge Launch'
       }
     ]
   },
@@ -32,16 +28,16 @@ const list = [
     title: 'Q2 2022',
     items: [
       {
-        finish: false,
+        finish: true,
         txt: 'Game Developer Partnership'
       },
       {
         finish: false,
-        txt: 'Announce Token Governance Plan'
+        txt: 'ETM/P Bridge Launch'
       },
       {
         finish: false,
-        txt: 'Host a Hackathon For Developer'
+        txt: 'Announce Token Governance Plan'
       }
     ]
   },
@@ -51,13 +47,17 @@ const list = [
       {
         finish: false,
         txt: 'ETM/P Mainnet Launch'
+      },
+      {
+        finish: false,
+        txt: 'Host a Hackathon For Developer'
       }
     ]
   }
 ]
 
 export default function Block2() {
-  const [select, setSelect] = useState(0)
+  const [select, setSelect] = useState(1)
   return (
     <div className="home-block2">
       <h1 className="home-block2-title" id="Roadmap">Roadmap</h1>
