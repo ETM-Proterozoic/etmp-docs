@@ -65,7 +65,7 @@ const config = {
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/ETM3/etm3.github.io',
+            href: 'https://github.com/ETM-Proterozoic/etmp-docs',
             label: 'GitHub',
             position: 'right',
           },
