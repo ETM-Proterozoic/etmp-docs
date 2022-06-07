@@ -10,8 +10,8 @@ export function changeNetWork () {
         chainId: '0x24',
         chainName: 'ETM/P Mainnet',
         nativeCurrency: {
-          name: 'ETM',
-          symbol: 'ETM',
+          name: 'ETMP',
+          symbol: 'ETMP',
           decimals: 18,
         },
         rpcUrls: ['https://rpc.etm.network/'],
