@@ -13,7 +13,7 @@ import Eonothem from "../components/home/eonothem";
 export default function Home() {
 
   return (
-    <>
+    <div className={style.homePageBody}>
       <div style={{display: "none"}}>
         <Layout><div></div></Layout>
       </div>
@@ -27,6 +27,6 @@ export default function Home() {
         <Block2/>
       </div>
       <Footer/>
-    </>
+    </div>
   );
 }

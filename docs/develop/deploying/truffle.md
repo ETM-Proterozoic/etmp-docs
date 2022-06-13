@@ -25,7 +25,7 @@ To verify that Truffle is installed properly, type **`truffle version`** on a 
 ## **truffle-config**
 
 - Go to truffle-config.js
-- Update the truffle-config with etm3-network-crendentials.
+- Update the truffle-config with etmp-network-crendentials.
 
 ```js
 const HDWalletProvider = require('@truffle/hdwallet-provider');
@@ -39,7 +39,7 @@ module.exports = {
       port: 8545,            // Standard Ethereum port (default: none)
       network_id: "*",       // Any network (default: none)
     },
-    etm3: {
+    etmp: {
       provider: () => new HDWalletProvider(mnemonic, `https://testnet-rpc.etm.network`),
       network_id: 37,
       confirmations: 2,
@@ -69,7 +69,7 @@ Add ETM/P to your wallet using Metamask
 
 Run this command in root of the project directory:
 ```js
-$ truffle migrate --network etm3
+$ truffle migrate --network etmp
 ```
 
 Contract will be deployed on ETM/P's Testnet, it look like this:

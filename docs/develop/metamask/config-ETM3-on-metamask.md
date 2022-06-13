@@ -1,5 +1,5 @@
 ---
-id: config-etm3-on-metamask
+id: config-etmp-on-metamask
 title: Add ETM/P Network
 description: Build your next blockchain app on ETM/P.
 keywords:
@@ -14,8 +14,8 @@ import TabItem from '@theme/TabItem';
 In order to view the flow of funds in your accounts, on the Polygon Network, you will need to configure ETM/P `{testnet, mainnet}` URL on Metamask.
 
 There are two ways to do it:
-1. [Using ETMPscan](/develop/metamask/config-etm3-on-metamask.md#Using-ETMPscan)
-2. [Add the ETM/P network manually](/develop/metamask/config-etm3-on-metamask.md#add-the-etm3-network-manually)
+1. [Using ETMPscan](/develop/metamask/config-etmp-on-metamask.md#Using-ETMPscan)
+2. [Add the ETM/P network manually](/develop/metamask/config-etmp-on-metamask.md#add-the-etmp-network-manually)
 
 ### Using-ETMPscan
 

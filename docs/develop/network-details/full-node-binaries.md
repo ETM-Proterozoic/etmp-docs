@@ -63,26 +63,15 @@ sudo ln -nfs ~/.go/bin/go /usr/bin/go
 
 ```bash
 cd ~/
-git clone https://github.com/ETM3/etm3-chain.git
+git clone https://github.com/ETM-Proterozoic/etmp-chain.git
 ```
 
-### Install etm3-chain
+### Install etmp-chain
 
 ```bash
-cd etm3-chain/
-go build -o etm3-chain main.go
-sudo mv etm3-chain /usr/local/bin
-```
-
-
-### Setup launch directory
-
-```bash
-mkdir etm3
-cd etm3
-etm3-chain secrets init --data-dir node
-cd ..
-wget https://raw.githubusercontent.com/ETM3/etm3-chain/develop/genesis-testnet.json -O genesis.json
+cd etmp-chain/
+go build -o etmp-chain main.go
+sudo mv etmp-chain /usr/local/bin
 ```
 
 ## Start services
@@ -90,7 +79,8 @@ wget https://raw.githubusercontent.com/ETM3/etm3-chain/develop/genesis-testnet.j
 Run the full Heimdall node with the following commands:
 
 ```bash
-etm3-chain server --data-dir ./node --chain genesis.json --jsonrpc 0.0.0.0:8545
+wget https://raw.githubusercontent.com/ETMP/etmp-chain/develop/genesis-testnet.json -O genesis.json
+etmp-chain server --data-dir ./node --chain genesis.json --jsonrpc 0.0.0.0:8545
 ```
 
 
@@ -140,25 +130,15 @@ sudo ln -nfs ~/.go/bin/go /usr/bin/go
 
 ```bash
 cd ~/
-git clone https://github.com/ETM3/etm3-chain.git
+git clone https://github.com/ETM-Proterozoic/etmp-chain.git
 ```
 
-### Install etm3-chain
+### Install etmp-chain
 
 ```bash
-cd etm3-chain/
-go build -o etm3-chain main.go
-sudo mv etm3-chain /usr/local/bin
-```
-
-### Setup launch directory
-
-```bash
-mkdir etm3
-cd etm3
-etm3-chain secrets init --data-dir node
-cd ..
-wget https://raw.githubusercontent.com/ETM3/etm3-chain/develop/genesis.json -O genesis.json
+cd etmp-chain/
+go build -o etmp-chain main.go
+sudo mv etmp-chain /usr/local/bin
 ```
 
 ## Start services
@@ -166,7 +146,8 @@ wget https://raw.githubusercontent.com/ETM3/etm3-chain/develop/genesis.json -O g
 Run the full Heimdall node with the following commands:
 
 ```bash
-etm3-chain server --data-dir ./node --chain genesis.json --jsonrpc 0.0.0.0:8545
+wget https://raw.githubusercontent.com/ETMP/etmp-chain/develop/genesis.json -O genesis.json
+etmp-chain server --data-dir ./node --chain genesis.json --jsonrpc 0.0.0.0:8545
 ```
 
 </TabItem>

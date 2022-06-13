@@ -14,7 +14,7 @@ keywords:
 ## Guide to Setup Metamask for ETM/P
 
 * [Download & Install MetaMask](/develop/metamask/tutorial-metamask.md)
-* [Configure ETM/P on MetaMask](/develop/metamask/config-etm3-on-metamask.md)
+* [Configure ETM/P on MetaMask](/develop/metamask/config-etmp-on-metamask.md)
 * [Config Custom Tokens](/develop/metamask/custom-tokens.md)
 * [Create & Import Accounts](/develop/metamask/multiple-accounts.md)
 

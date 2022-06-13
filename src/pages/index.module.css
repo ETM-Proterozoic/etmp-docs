@@ -2,7 +2,11 @@
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
-
+.homePageBody{
+    width: 100%;
+    background: #ffffff;
+    overflow-x: hidden;
+}
 .homePage{
     position: relative;
     width: 100%;

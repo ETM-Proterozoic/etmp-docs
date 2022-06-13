@@ -26,7 +26,7 @@ Switch over to ETM/P's RPC and get started!
     - [Using Truffle](/docs/develop/truffle)
     - [Using Hardhat](/docs/develop/hardhat)
     
-- Connecting to ETM/P [with RPC](https://etm.network/docs/develop/metamask/config-etm3-on-metamask) by adding ETM/P on Metamask.
+- Connecting to ETM/P [with RPC](https://etm.network/docs/develop/metamask/config-etmp-on-metamask) by adding ETM/P on Metamask.
 
   Note that same RPC can be used with web3js.
 
@@ -59,14 +59,14 @@ Switch over to ETM/P's RPC and get started!
 
     - [Web3js](https://www.dappuniversity.com/articles/web3-js-intro), [Ethers.js](https://docs.ethers.io/v5/),[Remix](https://etm.network/docs/develop/remix/), [Truffle](https://etm.network/docs/develop/truffle), [Metamask](/docs/develop/metamask/overview)
 - [Integrating Webhooks](https://docs.alchemy.com/alchemy/guides/v2-alchemy-notify)
-- [Archive Nodes with Debug namespace](https://www.quicknode.com/chains/matic?utm_source=etm3_docs&utm_campaign=ploygon_docs_contract_guide)
+- [Archive Nodes with Debug namespace](https://www.quicknode.com/chains/matic?utm_source=etmp_docs&utm_campaign=ploygon_docs_contract_guide)
 
 ### **Learn the developer tools**
 
 - [CryptoZombies](https://cryptozombies.io/)
 - [Full stack dapp tutorial series](https://kauri.io/#collections/Full%20Stack%20dApp%20Tutorial%20Series/full-stack-dapp-tutorial-series-intro/)
-- [Alchemy (Blockchain APIs and Developer Tools)](https://alchemy.com/?a=etm3-docs)
-- [QuickNode (Multi-chain Blockchain infrastructure)](https://www.quicknode.com/docs/etm3?utm_source=etm3_docs&utm_campaign=ploygon_docs_contract_guide)
+- [Alchemy (Blockchain APIs and Developer Tools)](https://alchemy.com/?a=etmp-docs)
+- [QuickNode (Multi-chain Blockchain infrastructure)](https://www.quicknode.com/docs/etmp?utm_source=etmp_docs&utm_campaign=ploygon_docs_contract_guide)
 - [Infura Docs](https://infura.io/docs)
 - [Truffle Suite Docs](https://www.trufflesuite.com/docs) (Recommended)
 - [Truffle tutorial](https://www.trufflesuite.com/tutorial) (Recommended)

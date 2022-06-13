@@ -28,7 +28,7 @@ The sample project will ask you to install hardhat-waffle and hardhat-ethers.You
 ## **hardhat-config**
 
 - Go to hardhat.config.js
-- Update the hardhat-config with etm3-network-crendentials.
+- Update the hardhat-config with etmp-network-crendentials.
 - create .env file in the root to store your private key
 
 ```js
@@ -36,11 +36,11 @@ require("@nomiclabs/hardhat-ethers");
 const fs = require('fs');
 const privateKey = fs.readFileSync(".secret").toString().trim();
 module.exports = {
-  defaultNetwork: "etm3",
+  defaultNetwork: "etmp",
   networks: {
     hardhat: {
     },
-    etm3: {
+    etmp: {
       url: "https://testnet-rpc.etm.network",
       accounts: [process.env.PRIVATE_KEY]
     }
@@ -67,7 +67,7 @@ $ npx hardhat compile
 
 Run this command in root of the project directory:
 ```bash
-$ npx hardhat run scripts/sample-script.js --network etm3
+$ npx hardhat run scripts/sample-script.js --network etmp
 ```
 
 Contract will be deployed on ETM/P's Testnet, it look like this:
