@@ -44,7 +44,7 @@ module.exports = {
       items: [
         "develop/metamask/overview",
         "develop/metamask/hello",
-        "develop/metamask/config-etm3-on-metamask",
+        "develop/metamask/config-etmp-on-metamask",
         "develop/metamask/multiple-accounts",
       ],
     },
