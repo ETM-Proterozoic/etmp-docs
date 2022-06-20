@@ -59,6 +59,12 @@ const config = {
           },
           {
             type: 'doc',
+            docId: 'basics/synopsis',
+            position: 'left',
+            label: 'Whitepaper',
+          },
+          {
+            type: 'doc',
             docId: 'develop/getting-started',
             position: 'left',
             label: 'Develop',
