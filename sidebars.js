@@ -18,6 +18,13 @@ module.exports = {
     // "basics/sidechain",
     "basics/import-account-to-metamask",
   ],
+  whitepaper: [
+    "whitepaper/synopsis",
+    "whitepaper/consensus_economic",
+    "whitepaper/tokenomic",
+    "whitepaper/chaosfactor",
+    "whitepaper/vision",
+  ],
   development: [
     "develop/getting-started",
     {
