@@ -59,7 +59,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'basics/synopsis',
+            docId: 'whitepaper/synopsis',
             position: 'left',
             label: 'Whitepaper',
           },
