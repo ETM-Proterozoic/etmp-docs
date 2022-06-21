@@ -1,6 +1,6 @@
 ---
 id: vision
-title: ETM DAO: The Vision
+title: ETM DAO The Vision
 sidebar_label: The Vision
 description: Build your next blockchain app on ETM/P.
 keywords:
