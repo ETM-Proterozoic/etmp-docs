@@ -16,13 +16,15 @@ longest chain rule. While the proof-of-work challenge (mining) that must
 be solved for every block provides tamper-resistance for the chain, the
 associated computational effort decides Poisson winning rate. Proof of
 Work consensus mechanism leads to waste of computational resources and
-constraints on scalability.\
+constraints on scalability.
+
 The leading proposals for removing the constraints and resource
 consumptions of proof-of-work adapt Byzantine Fault Tolerant (BFT)
 consensus algorithms [@kwon2014tendermint; @moniz2020istanbul]. In
 general, finalizing blocks through BFT consensus requires a known set of
 participants, a super-majority of which must be honest and only partial
-synchrony [@lamport2019byzantine].\
+synchrony [@lamport2019byzantine].
+
 BFT consensus has been combined with proof-of-stake (PoS) to create
 incentive mechanism for a secure and permissionless system. Under PoS,
 all participating nodes are required to deposit a (financial) stake that
@@ -35,7 +37,8 @@ system, compared to Proof of Work systems, is more efficient in
 utilizing capital costs while maintaining the security and temper proof
 nature of the chain. Most of the projects in the current Web3 blockchain
 world are based on PoS, including Ethereum2.0, Solana, Polkadot,
-Algorand etc..\
+Algorand etc..
+
 The ETM/P consensus mechanism is based on delegated Proof of Stake
 (DPoS). Like PoS, DPoS allocates token inflation rewards and governing
 power based on the state distribution and staked value of the nodes.
@@ -91,7 +94,8 @@ and broad distribution. Transactions can be done on ETM/P main net with
 low fees and deterministic finality. By design of the blockchain, a
 scalable fully replicated structure that is shared among all
 participants and guarantees a consistent view of all user transactions
-by all participants in the ETM system.\
+by all participants in the ETM system.
+
 The on-chain governance of Decentralized Autonomous Organization (DAO)
 and the distribution of inflated ETM/P token depend on the staking
 mechanism. Moreover, staking mechanism in ETM/P is essential to the
@@ -121,7 +125,8 @@ receive rewards in 3 ways:
 
 All rewards are denominated in the ETM/P tokens. This incentivize the
 validators to act dutifully in the validation process and safeguard the
-ETM system.\
+ETM system.
+
 Staking is an essential part of the ETM economic system: it helps to
 stabilize the token circulation and demand. Staking reward, generated
 from the aggregate token inflation, is not uniquely distributed to
@@ -150,7 +155,8 @@ staking nodes. This is also important for attracting new users and
 expanding the ecosystem. Since all rewards are denominated in ETM/P
 tokens, even though high reward may boost the inflow of new users in the
 short term, the potential devaluation of the native token caused by high
-inflation will discourage users in the long term.\
+inflation will discourage users in the long term.
+
 The automatic adjustments of the parameters to control the ETM/P
 economic system is guided by the real time dynamic rebalancing. This is
 one of the key features and main innovations of ETM/P for optimizing
@@ -161,38 +167,51 @@ equilibrium mechanism improves the reward transparency and price
 continuity in the economic system. Users can engage more actively in
 transactions with less risk. Moreover, the smart contracts of ETM/P use
 dynamic, data driven models to manage risk and provide value to the
-users.\
+users.
+
 We outline some details of the real time dynamic rebalancing mechanism
-and how it achieves a state of equilibrium:\
+and how it achieves a state of equilibrium:
+
 The first year inflation rate is $i=0.1$ and will be adjusted year by
 year. For more details we refer to the section on ETM tokenomics. We can
 then calculate the inflation per each block. Let $i_n$ denotes the
-inflation rate per block, since inflation is always compounded we have\
+inflation rate per block, since inflation is always compounded we have
+
 $$n=20\times 60\times 24\times 365=10512000.$$
-$$(1+i_n)^n=1+i, \,\,\,\ln(1+i_n)=\frac{1}{n}\ln(1+i).$$ Since $i_n$ is
-very small, we can use the formula $\ln(1+i_n)\approx i_n$ and obtain
-$$i_n=\frac{1}{n}\ln(1+i).$$ We can then calculate the reward to be
+
+$$(1+i_n)^n=1+i, \,\,\,\ln(1+i_n)=\frac{1}{n}\ln(1+i).$$
+Since $i_n$ is very small, we can use the formula $\ln(1+i_n)\approx i_n$ and obtain
+
+$$i_n=\frac{1}{n}\ln(1+i).$$ 
+
+We can then calculate the reward to be
 distributed after each block. Each validator can claim its reward
 according to its proportion in the staking pool. With the action of each
 node (stake, un-stake), the smart contract recalculates and updates the
-current distribution of the staking pool.\
+current distribution of the staking pool.
+
 We can obtain a simple estimate of the APY given the current data. Let
 $B_n$ denotes the total token in circulation at the time of block $n$
 and $S_n$ denotes the number of tokens staked. $r_n$ denotes the reward
 per token of the each staking node.
-$$S_n\times r_n=B_n\times i_n \times(1-\delta).$$ Let $\delta$ denotes
-the direct allocation of the inflation to reward the validators for
-performing their duties, for now let $\delta=0$. When $S_n/B_n$ is
+
+$$S_n\times r_n=B_n\times i_n \times(1-\delta).$$
+
+Let $\delta$ denotes the direct allocation of the inflation to reward the validators for performing their duties, for now let $\delta=0$. When $S_n/B_n$ is
 small, marginal reward will automatically increase to incentivize
 staking. On the other hand, marginal reward will decrease when
-$S_n/B_n$, in order to incentivize the utilization of the token.\
+$S_n/B_n$, in order to incentivize the utilization of the token.
+
 Suppose $B/S$ remains constant, it can be used to estimate the APY, such
 that
+
 $$r=(1+r_n)^n=(1+\frac{B}{S}\cdot \frac{1}{n}\ln(1+i))^n \approx (i+1)^{B/S}.$$
+
 This will help the validator estimates the potential P&L and makes
 decisions dynamically. However, it should be noted this estimate may be
 far from the true APY as one cannot predict the fluctuation of $S_n/B_n$
-as $n$ changes.\
+as $n$ changes.
+
 It is worth noting that, by smart contract structural design, rational
 agents in the ETM economic system are incentivized to use feedback
 control strategies. A feedback control strategy means that implementing
@@ -202,7 +221,8 @@ to maximize stake yield will adjust its token asset allocation by
 observing the aggregate staking ratio. The feedback control allows us to
 understand the cause of a decision, and explain its dependence on the
 state dynamics and policy constraints. A feedback control also allows us
-to justify the fairness of the token distribution mechanism.\
+to justify the fairness of the token distribution mechanism.
+
 The prospect of modeling and numerical simulation for ETM economic
 system goes far beyond simple APY estimation. By implementing real time
 dynamic rebalancing mechanism, ETM opens the door to the wide
