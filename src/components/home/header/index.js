@@ -62,6 +62,15 @@ const headerMenu = [
         target: '_blank'
       },
       {
+        name: 'Safe',
+        url: 'https://safe.etm.network',
+        icon: {
+          on: '/img/header/safe-on.svg',
+          off: '/img/header/safe-off.svg'
+        },
+        target: '_blank'
+      },
+      {
         name: 'Explorer',
         url: 'https://etmscan.network/',
         icon: {
