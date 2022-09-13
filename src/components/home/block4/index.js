@@ -9,7 +9,7 @@ export default function Block4(){
     var data = [
       {
       item: 'Staking Reward',
-      count: 1000000000,
+      count: 2000000000,
       percent: 0.4
     }, {
       item: 'Ecosystem',
@@ -17,20 +17,20 @@ export default function Block4(){
       percent: 0.2
     }, {
       item: 'Foundation',
-      count: 50000000,
+      count: 500000000,
       percent: 0.1
     }, {
       item: 'Strategic Sale',
-      count: 1000000000,
-      percent: 0.2
+      count: 720000000,
+      percent: 0.144
     }, {
       item: 'Liquidity Management',
-      count: 150000000,
-      percent: 0.03
+      count: 280000000,
+      percent: 0.056
     }, {
       item: 'Founding Team',
-      count: 350000000,
-      percent: 0.07
+      count: 500000000,
+      percent: 0.1
     }
     ];
     var chart = new G2.Chart({

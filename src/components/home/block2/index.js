@@ -8,7 +8,7 @@ const SelectOff = require('/img/home/block2-select-off.svg').default
 
 const list = [
   {
-    title: 'Q1 2022',
+    title: 'Q2 2022',
     items: [
       {
         finish: true,
@@ -21,19 +21,19 @@ const list = [
       {
         finish: true,
         txt: 'Partnership Announcement'
-      }
+      },
+      {
+        finish: true,
+        txt: 'ETM/P Bridge Launch'
+      },
     ]
   },
   {
-    title: 'Q2 2022',
+    title: 'Q3 2022',
     items: [
       {
-        finish: true,
-        txt: 'Game Developer Partnership'
-      },
-      {
         finish: false,
-        txt: 'ETM/P Bridge Launch'
+        txt: 'Game Developer Partnership'
       },
       {
         finish: false,
@@ -42,7 +42,7 @@ const list = [
     ]
   },
   {
-    title: 'Q3 2022',
+    title: 'Q4 2022',
     items: [
       {
         finish: false,
@@ -57,7 +57,7 @@ const list = [
 ]
 
 export default function Block2() {
-  const [select, setSelect] = useState(1)
+  const [select, setSelect] = useState(0)
   return (
     <div className="home-block2">
       <h1 className="home-block2-title" id="Roadmap">Roadmap</h1>
