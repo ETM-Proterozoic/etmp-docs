@@ -57,7 +57,7 @@ const list = [
 ]
 
 export default function Block2() {
-  const [select, setSelect] = useState(0)
+  const [select, setSelect] = useState(1)
   return (
     <div className="home-block2">
       <h1 className="home-block2-title" id="Roadmap">Roadmap</h1>
