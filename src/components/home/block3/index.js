@@ -4,7 +4,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 const list = [
   {
     icon: '/img/home/block3-1.svg',
-    title: 'MIMO',
+    title: 'MIME',
     desc: 'Web3 Social IM',
     tag: 'Social'
   },

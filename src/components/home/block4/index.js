@@ -16,11 +16,11 @@ export default function Block4(){
       count: 1000000000,
       percent: 0.2
     }, {
-      item: 'Foundation',
+      item: 'ETM/P Foundation',
       count: 500000000,
       percent: 0.1
     }, {
-      item: 'Strategic Sale',
+      item: 'Strategic Investment',
       count: 720000000,
       percent: 0.144
     }, {

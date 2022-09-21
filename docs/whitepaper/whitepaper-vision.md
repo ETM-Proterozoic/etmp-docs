@@ -10,7 +10,7 @@ keywords:
 
 ETM DAO: the vision
 ===================
-
+![image](/img/whitepaper/vision1.png)
 ETM DAO (Decentralized Autonomous Network) is a network defined by nodes
 and links, corresponding to people and relationships. This network has a
 topology that can adopt to changes in the world and evolves over time.
@@ -68,3 +68,4 @@ collectively. It spurs creativity and incentivizes the creation of
 heterogenous objectives or utilities. As the ETM ecosystem gets more
 complex, the ETM DAO and ETM/P blockchain will together provide a solid
 foundation for it.
+![image](/img/whitepaper/vision2.png)

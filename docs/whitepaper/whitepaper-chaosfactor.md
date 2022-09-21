@@ -10,7 +10,7 @@ keywords:
 
 Chaos Factor and Verifiable Random Permutation
 ==============================================
-
+![image](/img/whitepaper/chaos1.png)
 In this section we outline the innovative verifiable random permutation
 algorithm, which adds additional security protection on top of the
 Istanbul BFT consensus mechanism.

@@ -24,14 +24,14 @@ Staking reward 40%
 
 Ecosystem 20%
 
-ETM Foundation 10%
+ETM/P Foundation 10%
 
-Strategic investment 20%
+Strategic investment 14.4%
 
-Liquidity management 3%
+Liquidity management 5.6%
 
-Founding team 7%
-
+Founding team 10%
+![image](/img/whitepaper/tokenomic.png)
 Staking reward schedule:
 
 15% of the total staking reward is allocated in the first year, which

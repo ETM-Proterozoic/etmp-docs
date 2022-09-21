@@ -53,7 +53,7 @@ DPoS differs from PoS in two aspects:
 
 Recent events and theoretical analysis may illustrate the advantages of
 using Delegated Stake of Proof mechanism.
-
+![image](/img/whitepaper/consensus1.png)
 -   Efficiency, scalability and operational stability. Many academic
     works have shown that Byzantine Byzantine Fault Tolerant (BFT)
     consensus algorithms, without assuming a global synchrony, need a
@@ -95,7 +95,7 @@ low fees and deterministic finality. By design of the blockchain, a
 scalable fully replicated structure that is shared among all
 participants and guarantees a consistent view of all user transactions
 by all participants in the ETM system.
-
+![image](/img/whitepaper/consensus2.png)
 The on-chain governance of Decentralized Autonomous Organization (DAO)
 and the distribution of inflated ETM/P token depend on the staking
 mechanism. Moreover, staking mechanism in ETM/P is essential to the

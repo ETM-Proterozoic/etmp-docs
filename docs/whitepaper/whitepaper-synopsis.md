@@ -7,7 +7,7 @@ keywords:
   - docs
   - ETM/P
 ---
-
+![image](/img/whitepaper/etmpLogo.png)
 We are in the age of Web3 and metaverse. Public blockchains such as
 Ethereum are at the heart of the Web3 infrastructure. Good designs of
 blockchains need to balance decentralization, security and scalability.
@@ -37,26 +37,27 @@ structural design, smart contract can be easily and securely deployed in
 the ETM/P system. This gives ETM high scalability and composability. The
 consensus mechanism is based on the Byzantine fault tolerant consensus
 (Istanbul) with enhanced features.
-
+![image](/img/whitepaper/synopsis2.png)
 Delegated Proof of Stake brings more efficiency in terms of operations
 and computational resources. In each round, only 21 nodes are selected
 to process and validate transactions. However, this may lead to a
 reduction of decentralization and malicious coalition attacks on the
-system. To address this problem, ETM uses a new permutation algorithm
+system. To address this problem, ETM/P uses a new permutation algorithm
 based on chaos factor and VRP (verifiable random permutation) to
 mitigate the risk of malicious nodes coalition and front running
 attacks. These risks have been persistently troublesome to DeFi
 infrastructures.
 
-At the heart of the ETM economic model is sustainability. It is more
+At the heart of the ETM/P economic model is sustainability. It is more
 important than ever before, after the Luna/UST bank run, for economic
 models to be robust, healthy and sustainable while still attractive to
-users. The ETM economic model achieves these objectives by using
+users. The ETM/P economic model achieves these objectives by using
 algorithmic game theory and feedback control mechanism to enforce a mild
 inflationary monetary policy.
 
 We are now at the stage of "Proterozoic": building up a complete
 ecosystem of decentralized platforms.
 
-We will be moving to Phanerozoic: building up ETM DAO (Decentralized
+We will be moving to Phanerozoic: building up ETM/P DAO (Decentralized
 Autonomous Organization).
+![image](/img/whitepaper/synopsis3.png)
