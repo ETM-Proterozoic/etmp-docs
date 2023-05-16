@@ -7,7 +7,7 @@ export function changeNetWork () {
     method: 'wallet_addEthereumChain',
     params: [
       {
-        chainId: '0x24',
+        chainId: '0x30',
         chainName: 'ETM/P Mainnet',
         nativeCurrency: {
           name: 'ETMP',
