@@ -26,10 +26,10 @@ The documentation corresponding contains details for the RPC - HTTP endpoints. T
 |              |                                        |
 |--------------|----------------------------------------|
 | NetworkName  | **Testnet**                                 
-| chainId      | `37`                                  |
+| chainId      | `49`                                  |
 | Gas Token    | `ETMP Token`|
-| RPC          | `https://testnet-rpc.etm.network`
-| Block Explorer |[`https:/test.etmscan.network/`](https://test.etmscan.network/)|
+| RPC          | `https://rpc.pioneer.etm.network`
+| Block Explorer |[`https:/pioneer.etmscan.network`](https:/pioneer.etmscan.network/)|
 
 
 
@@ -50,10 +50,10 @@ The documentation corresponding contains details for the RPC - HTTP. There is al
 |              |                                        |
 |--------------|----------------------------------------|
 | NetworkName  | **ETM/P Mainnet**                                                              |
-| chainId      | `36`                                  |
+| chainId      | `48`                                  |
 | Gas Token    | `ETMP Token` |
-| RPC    | [`https://rpc.etm.network`](https://rpc.etm.network) |
-| Block Explorer | [`https://etmscan.network/`](https://www.etmscan.network/)|
+| RPC          | [`https://rpc.etm.network`](https://rpc.etm.network) |
+| Block Explorer | [`https://etmscan.network`](https://www.etmscan.network/)|
 
 
 
