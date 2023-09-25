@@ -41,7 +41,7 @@ module.exports = {
     hardhat: {
     },
     etmp: {
-      url: "https://testnet-rpc.etm.network",
+      url: "https://rpc.pioneer.etm.network",
       accounts: [process.env.PRIVATE_KEY]
     }
   },
@@ -80,7 +80,7 @@ Greeter deployed to: 0xfaFfCAD549BAA6110c5Cc03976d9383AcE90bdBE
 > Remember your address would differ, Above is just to provide an idea of structure.
 **Congratulations!** You have successfully deployed Greeter Smart Contract. Now you can interact with the Smart Contract.
 
-You can check the deployment status here: https://testnet.etmscan.network
+You can check the deployment status here: https://pioneer.etmscan.network
 
 
 
